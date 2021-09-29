@@ -6,12 +6,12 @@ The list of _ASes of State-Owned Internet Operators_ is a product of the researc
 
 ## Table of Contents
 
-1. State-owned ASes dataset [(Go there!)](#dataset)
-    1.1. Data structure [(Go there!)](#dataset:data-structure)
-    1.2. Data formats [(Go there!)](#dataset:data-formats)
-    1.3. Minority state-owned providers [(Go there!)](#dataset:minority-state-owned)
-2. Examples [(Go there!)](#examples)
-3. Citation [(Go there!)](#citation)
+1. [State-owned ASes dataset](#dataset)
+   1.1. [Data structure](#dataset:data-structure)
+   1.2. [Data formats](#dataset:data-formats)
+   1.3. [Minority state-owned providers](#dataset:minority-state-owned)
+2. [Examples](#examples)
+3. [Citation](#citation)
 
 ## Repo structure
 
