@@ -7,9 +7,9 @@ The list of _ASes of State-Owned Internet Operators_ is a product of the researc
 ## Table of Contents
 
 1. [State-owned ASes dataset](#dataset)
-   1. [Data structure](#dataset:data-structure)
-   2. [Data formats](#dataset:data-formats)
-   3. [Minority state-owned providers](#dataset:minority-state-owned)
+   1. [Data structure](#dataset_data_structure)
+   2. [Data formats](#dataset_data_formats)
+   3. [Minority state-owned providers](#dataset_minority_state-owned)
 2. [Examples](#examples)
 3. [Citation](#citation)
 
@@ -67,7 +67,7 @@ In this repository, we provide two datasets:
 
 We provide the datasets of state-owned ASes in three formats **CSV**, **JSON** and **sqlite**
 
-## <a name="dataset:data-structure"></a>1.1. Data structure
+## <a name="dataset_data_structure"></a>1.1. Data structure
 
 We use the following example to illustrate the data structure of the records in our dataset.
 
@@ -132,7 +132,7 @@ ownership.
 
 <span style="color:red">*Minority state-owned Internet providers*</span>. In the dataset of the minority state-owned ASes we include one additional field ```onwership_percentage``` to ```organizations``` to indicate the state ownership in the company operating the Autonomous System
 
-## <a name="dataset:data-formats"></a>1.2. Data formats
+## <a name="dataset_data_formats"></a>1.2. Data formats
 
 #### CSV files
 
@@ -158,7 +158,7 @@ We also provide access to the dataset using sqlite. We provide two separate data
 - state-owned ASes ([sqlite database](data/state-owned-ases/sqlite/state_owned_ases.sqlite))
 - The preliminary and partial list of _minority_ state-owned ASes ([sqlite database](data/minority-state-owned-ases/sqlite/minority_state_owned_ases.sqlite))
 
-## <a name="dataset:minority-state-owned"></a>1.3. Description of the list of minority state-owned providers
+## <a name="dataset_minority_state-owned"></a>1.3. Description of the list of minority state-owned providers
 
 Identifying ASes operated by minority state-owned Internet Operators was beyond the scope of this project. However, during our manual examination we discovered some ASes with partial state ownership, that is where the state directly or indirectly owns less than 50% of the company's shares. We share this additional outcome of our research but acknowledge its limitations.
 
