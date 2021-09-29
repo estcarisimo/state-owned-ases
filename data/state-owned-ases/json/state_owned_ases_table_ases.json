@@ -1,0 +1,3326 @@
+[
+    {
+        "org_id": "@aut-10269-LACNIC",
+        "asn": [
+            10269
+        ]
+    },
+    {
+        "org_id": "@aut-10569-LACNIC",
+        "asn": [
+            10569
+        ]
+    },
+    {
+        "org_id": "@aut-11830-LACNIC",
+        "asn": [
+            11830,
+            28081
+        ]
+    },
+    {
+        "org_id": "@aut-11960-LACNIC",
+        "asn": [
+            11960
+        ]
+    },
+    {
+        "org_id": "@aut-131325-APNIC",
+        "asn": [
+            131325
+        ]
+    },
+    {
+        "org_id": "@aut-132176-APNIC",
+        "asn": [
+            132176
+        ]
+    },
+    {
+        "org_id": "@aut-132177-APNIC",
+        "asn": [
+            132177
+        ]
+    },
+    {
+        "org_id": "@aut-132178-APNIC",
+        "asn": [
+            132178
+        ]
+    },
+    {
+        "org_id": "@aut-132179-APNIC",
+        "asn": [
+            132179
+        ]
+    },
+    {
+        "org_id": "@aut-132180-APNIC",
+        "asn": [
+            132180
+        ]
+    },
+    {
+        "org_id": "@aut-132181-APNIC",
+        "asn": [
+            132181
+        ]
+    },
+    {
+        "org_id": "@aut-132182-APNIC",
+        "asn": [
+            132182
+        ]
+    },
+    {
+        "org_id": "@aut-132183-APNIC",
+        "asn": [
+            132183
+        ]
+    },
+    {
+        "org_id": "@aut-132184-APNIC",
+        "asn": [
+            132184
+        ]
+    },
+    {
+        "org_id": "@aut-132185-APNIC",
+        "asn": [
+            132185
+        ]
+    },
+    {
+        "org_id": "@aut-132186-APNIC",
+        "asn": [
+            132186
+        ]
+    },
+    {
+        "org_id": "@aut-132187-APNIC",
+        "asn": [
+            132187
+        ]
+    },
+    {
+        "org_id": "@aut-132188-APNIC",
+        "asn": [
+            132188
+        ]
+    },
+    {
+        "org_id": "@aut-132189-APNIC",
+        "asn": [
+            132189
+        ]
+    },
+    {
+        "org_id": "@aut-132190-APNIC",
+        "asn": [
+            132190
+        ]
+    },
+    {
+        "org_id": "@aut-132191-APNIC",
+        "asn": [
+            132191
+        ]
+    },
+    {
+        "org_id": "@aut-133774-APNIC",
+        "asn": [
+            133774
+        ]
+    },
+    {
+        "org_id": "@aut-133775-APNIC",
+        "asn": [
+            133775
+        ]
+    },
+    {
+        "org_id": "@aut-133776-APNIC",
+        "asn": [
+            133776
+        ]
+    },
+    {
+        "org_id": "@aut-133788-APNIC",
+        "asn": [
+            133788
+        ]
+    },
+    {
+        "org_id": "@aut-134417-APNIC",
+        "asn": [
+            134417,
+            134422,
+            134423
+        ]
+    },
+    {
+        "org_id": "@aut-134418-APNIC",
+        "asn": [
+            134418
+        ]
+    },
+    {
+        "org_id": "@aut-134419-APNIC",
+        "asn": [
+            134419
+        ]
+    },
+    {
+        "org_id": "@aut-134420-APNIC",
+        "asn": [
+            134420
+        ]
+    },
+    {
+        "org_id": "@aut-134421-APNIC",
+        "asn": [
+            134421
+        ]
+    },
+    {
+        "org_id": "@aut-136185-APNIC",
+        "asn": [
+            136185
+        ]
+    },
+    {
+        "org_id": "@aut-136186-APNIC",
+        "asn": [
+            136186
+        ]
+    },
+    {
+        "org_id": "@aut-136188-APNIC",
+        "asn": [
+            136188
+        ]
+    },
+    {
+        "org_id": "@aut-136190-APNIC",
+        "asn": [
+            136190
+        ]
+    },
+    {
+        "org_id": "@aut-136191-APNIC",
+        "asn": [
+            136191
+        ]
+    },
+    {
+        "org_id": "@aut-136192-APNIC",
+        "asn": [
+            136192
+        ]
+    },
+    {
+        "org_id": "@aut-136193-APNIC",
+        "asn": [
+            136193
+        ]
+    },
+    {
+        "org_id": "@aut-136194-APNIC",
+        "asn": [
+            136194
+        ]
+    },
+    {
+        "org_id": "@aut-136195-APNIC",
+        "asn": [
+            136195
+        ]
+    },
+    {
+        "org_id": "@aut-136196-APNIC",
+        "asn": [
+            136196
+        ]
+    },
+    {
+        "org_id": "@aut-136197-APNIC",
+        "asn": [
+            136197
+        ]
+    },
+    {
+        "org_id": "@aut-137686-APNIC",
+        "asn": [
+            137686
+        ]
+    },
+    {
+        "org_id": "@aut-137687-APNIC",
+        "asn": [
+            137687
+        ]
+    },
+    {
+        "org_id": "@aut-137688-APNIC",
+        "asn": [
+            137688
+        ]
+    },
+    {
+        "org_id": "@aut-137689-APNIC",
+        "asn": [
+            137689
+        ]
+    },
+    {
+        "org_id": "@aut-137690-APNIC",
+        "asn": [
+            137690
+        ]
+    },
+    {
+        "org_id": "@aut-137691-APNIC",
+        "asn": [
+            137691
+        ]
+    },
+    {
+        "org_id": "@aut-137692-APNIC",
+        "asn": [
+            137692
+        ]
+    },
+    {
+        "org_id": "@aut-137693-APNIC",
+        "asn": [
+            137693
+        ]
+    },
+    {
+        "org_id": "@aut-137694-APNIC",
+        "asn": [
+            137694
+        ]
+    },
+    {
+        "org_id": "@aut-137695-APNIC",
+        "asn": [
+            137695
+        ]
+    },
+    {
+        "org_id": "@aut-137696-APNIC",
+        "asn": [
+            137696
+        ]
+    },
+    {
+        "org_id": "@aut-137697-APNIC",
+        "asn": [
+            137697
+        ]
+    },
+    {
+        "org_id": "@aut-137698-APNIC",
+        "asn": [
+            137698
+        ]
+    },
+    {
+        "org_id": "@aut-137699-APNIC",
+        "asn": [
+            137699
+        ]
+    },
+    {
+        "org_id": "@aut-137700-APNIC",
+        "asn": [
+            137700
+        ]
+    },
+    {
+        "org_id": "@aut-15964-RIPE",
+        "asn": [
+            15964
+        ]
+    },
+    {
+        "org_id": "@aut-16058-RIPE",
+        "asn": [
+            16058
+        ]
+    },
+    {
+        "org_id": "@aut-17442-APNIC",
+        "asn": [
+            17442
+        ]
+    },
+    {
+        "org_id": "@aut-17633-APNIC",
+        "asn": [
+            17633
+        ]
+    },
+    {
+        "org_id": "@aut-17638-APNIC",
+        "asn": [
+            17638
+        ]
+    },
+    {
+        "org_id": "@aut-17672-APNIC",
+        "asn": [
+            17672
+        ]
+    },
+    {
+        "org_id": "@aut-17777-APNIC",
+        "asn": [
+            17777
+        ]
+    },
+    {
+        "org_id": "@aut-17785-APNIC",
+        "asn": [
+            17785
+        ]
+    },
+    {
+        "org_id": "@aut-17799-APNIC",
+        "asn": [
+            17799
+        ]
+    },
+    {
+        "org_id": "@aut-17813-APNIC",
+        "asn": [
+            17813,
+            59319
+        ]
+    },
+    {
+        "org_id": "@aut-17883-APNIC",
+        "asn": [
+            17883
+        ]
+    },
+    {
+        "org_id": "@aut-17896-APNIC",
+        "asn": [
+            17896
+        ]
+    },
+    {
+        "org_id": "@aut-17897-APNIC",
+        "asn": [
+            17897
+        ]
+    },
+    {
+        "org_id": "@aut-17923-APNIC",
+        "asn": [
+            17923
+        ]
+    },
+    {
+        "org_id": "@aut-17998-APNIC",
+        "asn": [
+            17998
+        ]
+    },
+    {
+        "org_id": "@aut-18118-APNIC",
+        "asn": [
+            18118,
+            45056
+        ]
+    },
+    {
+        "org_id": "@aut-18678-LACNIC",
+        "asn": [
+            18678
+        ]
+    },
+    {
+        "org_id": "@aut-21003-RIPE",
+        "asn": [
+            21003
+        ]
+    },
+    {
+        "org_id": "@aut-21271-RIPE",
+        "asn": [
+            21271
+        ]
+    },
+    {
+        "org_id": "@aut-23650-APNIC",
+        "asn": [
+            23650
+        ]
+    },
+    {
+        "org_id": "@aut-23693-APNIC",
+        "asn": [
+            23693
+        ]
+    },
+    {
+        "org_id": "@aut-23724-APNIC",
+        "asn": [
+            23724
+        ]
+    },
+    {
+        "org_id": "@aut-24086-APNIC",
+        "asn": [
+            24086
+        ]
+    },
+    {
+        "org_id": "@aut-24138-APNIC",
+        "asn": [
+            24138
+        ]
+    },
+    {
+        "org_id": "@aut-24691-RIPE",
+        "asn": [
+            24691
+        ]
+    },
+    {
+        "org_id": "@aut-24757-RIPE",
+        "asn": [
+            24757
+        ]
+    },
+    {
+        "org_id": "@aut-25250-RIPE",
+        "asn": [
+            25250
+        ]
+    },
+    {
+        "org_id": "@aut-25543-RIPE",
+        "asn": [
+            25543
+        ]
+    },
+    {
+        "org_id": "@aut-2609-RIPE",
+        "asn": [
+            2609
+        ]
+    },
+    {
+        "org_id": "@aut-262195-LACNIC",
+        "asn": [
+            262195
+        ]
+    },
+    {
+        "org_id": "@aut-262210-LACNIC",
+        "asn": [
+            262210
+        ]
+    },
+    {
+        "org_id": "@aut-262589-LACNIC",
+        "asn": [
+            262589
+        ]
+    },
+    {
+        "org_id": "@aut-27725-LACNIC",
+        "asn": [
+            27725,
+            264713
+        ]
+    },
+    {
+        "org_id": "@aut-27775-LACNIC",
+        "asn": [
+            27775,
+            263240
+        ]
+    },
+    {
+        "org_id": "@aut-27866-LACNIC",
+        "asn": [
+            27768,
+            27866
+        ]
+    },
+    {
+        "org_id": "@aut-27889-LACNIC",
+        "asn": [
+            27889
+        ]
+    },
+    {
+        "org_id": "@aut-28032-LACNIC",
+        "asn": [
+            28032
+        ]
+    },
+    {
+        "org_id": "@aut-28683-RIPE",
+        "asn": [
+            28683
+        ]
+    },
+    {
+        "org_id": "@aut-29544-RIPE",
+        "asn": [
+            29544
+        ]
+    },
+    {
+        "org_id": "@aut-3790-LACNIC",
+        "asn": [
+            3790
+        ]
+    },
+    {
+        "org_id": "@aut-38283-APNIC",
+        "asn": [
+            38283
+        ]
+    },
+    {
+        "org_id": "@aut-38750-APNIC",
+        "asn": [
+            38750
+        ]
+    },
+    {
+        "org_id": "@aut-4134-APNIC",
+        "asn": [
+            4134,
+            45256
+        ]
+    },
+    {
+        "org_id": "@aut-45896-APNIC",
+        "asn": [
+            45895,
+            45896,
+            45897
+        ]
+    },
+    {
+        "org_id": "@aut-4809-APNIC",
+        "asn": [
+            4809
+        ]
+    },
+    {
+        "org_id": "@aut-4810-APNIC",
+        "asn": [
+            4810
+        ]
+    },
+    {
+        "org_id": "@aut-4811-APNIC",
+        "asn": [
+            4811,
+            4812
+        ]
+    },
+    {
+        "org_id": "@aut-4813-APNIC",
+        "asn": [
+            4813
+        ]
+    },
+    {
+        "org_id": "@aut-4835-APNIC",
+        "asn": [
+            4815,
+            4816,
+            4835
+        ]
+    },
+    {
+        "org_id": "@aut-52260-LACNIC",
+        "asn": [
+            52260
+        ]
+    },
+    {
+        "org_id": "@aut-52280-LACNIC",
+        "asn": [
+            52280
+        ]
+    },
+    {
+        "org_id": "@aut-52361-LACNIC",
+        "asn": [
+            52361
+        ]
+    },
+    {
+        "org_id": "@aut-53237-LACNIC",
+        "asn": [
+            53237
+        ]
+    },
+    {
+        "org_id": "@aut-55877-APNIC",
+        "asn": [
+            55877
+        ]
+    },
+    {
+        "org_id": "@aut-5639-LACNIC",
+        "asn": [
+            5639
+        ]
+    },
+    {
+        "org_id": "@aut-58517-APNIC",
+        "asn": [
+            58517
+        ]
+    },
+    {
+        "org_id": "@aut-58518-APNIC",
+        "asn": [
+            58518
+        ]
+    },
+    {
+        "org_id": "@aut-58519-APNIC",
+        "asn": [
+            58519
+        ]
+    },
+    {
+        "org_id": "@aut-58520-APNIC",
+        "asn": [
+            58520
+        ]
+    },
+    {
+        "org_id": "@aut-58539-APNIC",
+        "asn": [
+            58539
+        ]
+    },
+    {
+        "org_id": "@aut-58540-APNIC",
+        "asn": [
+            58540
+        ]
+    },
+    {
+        "org_id": "@aut-58541-APNIC",
+        "asn": [
+            58541
+        ]
+    },
+    {
+        "org_id": "@aut-58542-APNIC",
+        "asn": [
+            58542
+        ]
+    },
+    {
+        "org_id": "@aut-58543-APNIC",
+        "asn": [
+            58543
+        ]
+    },
+    {
+        "org_id": "@aut-58563-APNIC",
+        "asn": [
+            58563
+        ]
+    },
+    {
+        "org_id": "@aut-58564-APNIC",
+        "asn": [
+            58564
+        ]
+    },
+    {
+        "org_id": "@aut-58565-APNIC",
+        "asn": [
+            58565
+        ]
+    },
+    {
+        "org_id": "@aut-58566-APNIC",
+        "asn": [
+            58566
+        ]
+    },
+    {
+        "org_id": "@aut-58571-APNIC",
+        "asn": [
+            58567,
+            58568,
+            58569,
+            58570,
+            58571,
+            58572,
+            58573,
+            58574
+        ]
+    },
+    {
+        "org_id": "@aut-59265-APNIC",
+        "asn": [
+            59265
+        ]
+    },
+    {
+        "org_id": "@aut-6057-LACNIC",
+        "asn": [
+            6057,
+            7167
+        ]
+    },
+    {
+        "org_id": "@aut-63659-APNIC",
+        "asn": [
+            63659
+        ]
+    },
+    {
+        "org_id": "@aut-63711-APNIC",
+        "asn": [
+            9394,
+            63711
+        ]
+    },
+    {
+        "org_id": "@aut-63810-APNIC",
+        "asn": [
+            63810
+        ]
+    },
+    {
+        "org_id": "@aut-63811-APNIC",
+        "asn": [
+            63811
+        ]
+    },
+    {
+        "org_id": "@aut-63812-APNIC",
+        "asn": [
+            63812
+        ]
+    },
+    {
+        "org_id": "@aut-63813-APNIC",
+        "asn": [
+            63813
+        ]
+    },
+    {
+        "org_id": "@aut-63814-APNIC",
+        "asn": [
+            63814
+        ]
+    },
+    {
+        "org_id": "@aut-63815-APNIC",
+        "asn": [
+            63815
+        ]
+    },
+    {
+        "org_id": "@aut-63816-APNIC",
+        "asn": [
+            63816
+        ]
+    },
+    {
+        "org_id": "@aut-63817-APNIC",
+        "asn": [
+            63817
+        ]
+    },
+    {
+        "org_id": "@aut-63818-APNIC",
+        "asn": [
+            63818
+        ]
+    },
+    {
+        "org_id": "@aut-63819-APNIC",
+        "asn": [
+            63819
+        ]
+    },
+    {
+        "org_id": "@aut-63820-APNIC",
+        "asn": [
+            63820
+        ]
+    },
+    {
+        "org_id": "@aut-63821-APNIC",
+        "asn": [
+            63821
+        ]
+    },
+    {
+        "org_id": "@aut-63822-APNIC",
+        "asn": [
+            63822
+        ]
+    },
+    {
+        "org_id": "@aut-63823-APNIC",
+        "asn": [
+            63823
+        ]
+    },
+    {
+        "org_id": "@aut-63824-APNIC",
+        "asn": [
+            63824
+        ]
+    },
+    {
+        "org_id": "@aut-63825-APNIC",
+        "asn": [
+            63825
+        ]
+    },
+    {
+        "org_id": "@aut-6568-LACNIC",
+        "asn": [
+            6568
+        ]
+    },
+    {
+        "org_id": "@aut-6713-RIPE",
+        "asn": [
+            6713
+        ]
+    },
+    {
+        "org_id": "@aut-7552-APNIC",
+        "asn": [
+            7552
+        ]
+    },
+    {
+        "org_id": "@aut-7643-APNIC",
+        "asn": [
+            7643,
+            45898,
+            45899
+        ]
+    },
+    {
+        "org_id": "@aut-7727-LACNIC",
+        "asn": [
+            7727,
+            263794
+        ]
+    },
+    {
+        "org_id": "@aut-8048-LACNIC",
+        "asn": [
+            8048,
+            10293
+        ]
+    },
+    {
+        "org_id": "@aut-8452-RIPE",
+        "asn": [
+            8452
+        ]
+    },
+    {
+        "org_id": "@aut-9800-APNIC",
+        "asn": [
+            9800
+        ]
+    },
+    {
+        "org_id": "@aut-9911-APNIC",
+        "asn": [
+            9911
+        ]
+    },
+    {
+        "org_id": "@aut-9929-APNIC",
+        "asn": [
+            4659,
+            4799,
+            4814,
+            4837,
+            9929,
+            17620,
+            17788,
+            17789,
+            17790,
+            17791
+        ]
+    },
+    {
+        "org_id": "@del-9392",
+        "asn": [
+            9392
+        ]
+    },
+    {
+        "org_id": "@family-14357",
+        "asn": [
+            4808,
+            10206,
+            17621,
+            17622,
+            17623,
+            17816,
+            63836,
+            63837,
+            133118,
+            133119,
+            134542,
+            134543,
+            135061,
+            136958,
+            136959,
+            137539
+        ]
+    },
+    {
+        "org_id": "@family-41069",
+        "asn": [
+            14420,
+            26613,
+            27757,
+            27948,
+            27968,
+            28006,
+            28011
+        ]
+    },
+    {
+        "org_id": "@family-46975",
+        "asn": [
+            17885,
+            24203,
+            24208
+        ]
+    },
+    {
+        "org_id": "@family-49686",
+        "asn": [
+            17652,
+            23889,
+            23889
+        ]
+    },
+    {
+        "org_id": "@family-59023",
+        "asn": [
+            137701,
+            137702
+        ]
+    },
+    {
+        "org_id": "@family-60045",
+        "asn": [
+            132154,
+            133373,
+            133503
+        ]
+    },
+    {
+        "org_id": "APUA-1-ARIN",
+        "asn": [
+            11594
+        ]
+    },
+    {
+        "org_id": "BTC-16-ARIN",
+        "asn": [
+            8014
+        ]
+    },
+    {
+        "org_id": "CTUC-ARIN",
+        "asn": [
+            36678
+        ]
+    },
+    {
+        "org_id": "CUAOL-ARIN",
+        "asn": [
+            19174
+        ]
+    },
+    {
+        "org_id": "ORG-AA137-RIPE",
+        "asn": [
+            34170
+        ]
+    },
+    {
+        "org_id": "ORG-AA49-RIPE",
+        "asn": [
+            8439,
+            48753,
+            50514
+        ]
+    },
+    {
+        "org_id": "ORG-AAC6-RIPE",
+        "asn": [
+            59974
+        ]
+    },
+    {
+        "org_id": "ORG-AAFT1-AFRINIC",
+        "asn": [
+            37284
+        ]
+    },
+    {
+        "org_id": "ORG-AC4-AFRINIC",
+        "asn": [
+            37468,
+            327788
+        ]
+    },
+    {
+        "org_id": "ORG-ACL18-RIPE",
+        "asn": [
+            51684
+        ]
+    },
+    {
+        "org_id": "ORG-ADDD1-AFRINIC",
+        "asn": [
+            328104
+        ]
+    },
+    {
+        "org_id": "ORG-AFIS1-RIPE",
+        "asn": [
+            25233,
+            43987,
+            58250,
+            201768,
+            201769,
+            201771
+        ]
+    },
+    {
+        "org_id": "ORG-AL4-AP-APNIC",
+        "asn": [
+            24432,
+            56138
+        ]
+    },
+    {
+        "org_id": "ORG-AMAJ1-AFRINIC",
+        "asn": [
+            328200,
+            328200
+        ]
+    },
+    {
+        "org_id": "ORG-ANLI3-AP-APNIC",
+        "asn": [
+            134597
+        ]
+    },
+    {
+        "org_id": "ORG-AS4-AP-APNIC",
+        "asn": [
+            137401
+        ]
+    },
+    {
+        "org_id": "ORG-AT1-AFRINIC",
+        "asn": [
+            11259,
+            37059
+        ]
+    },
+    {
+        "org_id": "ORG-AT2-RIPE",
+        "asn": [
+            8990,
+            20568
+        ]
+    },
+    {
+        "org_id": "ORG-ATC4-RIPE",
+        "asn": [
+            50223
+        ]
+    },
+    {
+        "org_id": "ORG-ATD1-AFRINIC",
+        "asn": [
+            37190
+        ]
+    },
+    {
+        "org_id": "ORG-ATD4-RIPE",
+        "asn": [
+            5438
+        ]
+    },
+    {
+        "org_id": "ORG-ATHK1-AP-APNIC",
+        "asn": [
+            4865,
+            134783
+        ]
+    },
+    {
+        "org_id": "ORG-ATJ1-RIPE",
+        "asn": [
+            31721
+        ]
+    },
+    {
+        "org_id": "ORG-ATN2-AFRINIC",
+        "asn": [
+            37205
+        ]
+    },
+    {
+        "org_id": "ORG-ATSL1-AP-APNIC",
+        "asn": [
+            17975
+        ]
+    },
+    {
+        "org_id": "ORG-ATT1-AFRINIC",
+        "asn": [
+            37229
+        ]
+    },
+    {
+        "org_id": "ORG-BA2-RIPE",
+        "asn": [
+            28787
+        ]
+    },
+    {
+        "org_id": "ORG-BA242-RIPE",
+        "asn": [
+            44814
+        ]
+    },
+    {
+        "org_id": "ORG-BA4-RIPE",
+        "asn": [
+            5432,
+            5488,
+            28704,
+            29005
+        ]
+    },
+    {
+        "org_id": "ORG-BA6-RIPE",
+        "asn": [
+            5416,
+            15539
+        ]
+    },
+    {
+        "org_id": "ORG-BBSS1-AFRINIC",
+        "asn": [
+            37545
+        ]
+    },
+    {
+        "org_id": "ORG-BC2-RIPE",
+        "asn": [
+            28812,
+            28881
+        ]
+    },
+    {
+        "org_id": "ORG-BCTJ1-RIPE",
+        "asn": [
+            60330,
+            205475
+        ]
+    },
+    {
+        "org_id": "ORG-BFNL1-AFRINIC",
+        "asn": [
+            37678
+        ]
+    },
+    {
+        "org_id": "ORG-BI2-AFRINIC",
+        "asn": [
+            327698
+        ]
+    },
+    {
+        "org_id": "ORG-BICS2-RIPE",
+        "asn": [
+            5560,
+            6774
+        ]
+    },
+    {
+        "org_id": "ORG-BL10-AP-APNIC",
+        "asn": [
+            133137
+        ]
+    },
+    {
+        "org_id": "ORG-BSCC1-AP-APNIC",
+        "asn": [
+            132602
+        ]
+    },
+    {
+        "org_id": "ORG-BSNL1-AP-APNIC",
+        "asn": [
+            9829
+        ]
+    },
+    {
+        "org_id": "ORG-BTC2-AFRINIC",
+        "asn": [
+            14988
+        ]
+    },
+    {
+        "org_id": "ORG-BTL2-AP-APNIC",
+        "asn": [
+            17660,
+            18024,
+            18025
+        ]
+    },
+    {
+        "org_id": "ORG-BTTB1-AP-APNIC",
+        "asn": [
+            17494,
+            23876,
+            45532,
+            45588,
+            45607,
+            56031,
+            56032,
+            131102
+        ]
+    },
+    {
+        "org_id": "ORG-CA786-RIPE",
+        "asn": [
+            39791
+        ]
+    },
+    {
+        "org_id": "ORG-CAT1-RIPE",
+        "asn": [
+            20521
+        ]
+    },
+    {
+        "org_id": "ORG-CCSL13-RIPE",
+        "asn": [
+            35432
+        ]
+    },
+    {
+        "org_id": "ORG-CDTD1-AP-APNIC",
+        "asn": [
+            4609,
+            7617,
+            24335
+        ]
+    },
+    {
+        "org_id": "ORG-CIS1-AP-APNIC",
+        "asn": [
+            4638
+        ]
+    },
+    {
+        "org_id": "ORG-CJSC19-RIPE",
+        "asn": [
+            8485,
+            12688,
+            15774,
+            16285,
+            20485,
+            20870,
+            21191,
+            21438,
+            24626,
+            24923,
+            28745,
+            28906,
+            31364,
+            31501,
+            35641,
+            39660,
+            43782,
+            44775,
+            47241,
+            47313,
+            49301,
+            50714,
+            51003,
+            51543,
+            51813,
+            56830,
+            61245,
+            196797,
+            197333
+        ]
+    },
+    {
+        "org_id": "ORG-CL1-AP-APNIC",
+        "asn": [
+            59257
+        ]
+    },
+    {
+        "org_id": "ORG-CM1-AP-APNIC",
+        "asn": [
+            9808,
+            24311,
+            24400,
+            24444,
+            24445,
+            24547,
+            38019
+        ]
+    },
+    {
+        "org_id": "ORG-CMCC1-AP-APNIC",
+        "asn": [
+            24059,
+            45120,
+            56040,
+            56041,
+            56042,
+            56044,
+            56045,
+            56046,
+            56047,
+            56048,
+            132501,
+            132510,
+            132511,
+            132525,
+            134810,
+            136755
+        ]
+    },
+    {
+        "org_id": "ORG-CMHK1-AP-APNIC",
+        "asn": [
+            9231,
+            137872
+        ]
+    },
+    {
+        "org_id": "ORG-CMIL1-AP-APNIC",
+        "asn": [
+            58453,
+            58807
+        ]
+    },
+    {
+        "org_id": "ORG-CMS1-AFRINIC",
+        "asn": [
+            37517
+        ]
+    },
+    {
+        "org_id": "ORG-CSB2-AP-APNIC",
+        "asn": [
+            10030
+        ]
+    },
+    {
+        "org_id": "ORG-CT3-AFRINIC",
+        "asn": [
+            36939
+        ]
+    },
+    {
+        "org_id": "ORG-CT6-AFRINIC",
+        "asn": [
+            37451
+        ]
+    },
+    {
+        "org_id": "ORG-CTA2-RIPE",
+        "asn": [
+            6866,
+            41657
+        ]
+    },
+    {
+        "org_id": "ORG-CTC3-AP-APNIC",
+        "asn": [
+            58628
+        ]
+    },
+    {
+        "org_id": "ORG-CTEL2-RIPE",
+        "asn": [
+            44218,
+            49209
+        ]
+    },
+    {
+        "org_id": "ORG-CTGL1-AP-APNIC",
+        "asn": [
+            63527,
+            64079
+        ]
+    },
+    {
+        "org_id": "ORG-CTIC1-AP-APNIC",
+        "asn": [
+            2772,
+            3689,
+            3690,
+            3691,
+            3692,
+            3693,
+            4058,
+            5017,
+            5018,
+            9440,
+            9538,
+            9665
+        ]
+    },
+    {
+        "org_id": "ORG-CTIL1-AP-APNIC",
+        "asn": [
+            17554,
+            38864
+        ]
+    },
+    {
+        "org_id": "ORG-CTIL2-AP-APNIC",
+        "asn": [
+            7705,
+            17814
+        ]
+    },
+    {
+        "org_id": "ORG-CTPC1-AP-APNIC",
+        "asn": [
+            4651,
+            4652,
+            9335,
+            9931,
+            18252,
+            131089,
+            131090
+        ]
+    },
+    {
+        "org_id": "ORG-CTS25-RIPE",
+        "asn": [
+            64411,
+            205087
+        ]
+    },
+    {
+        "org_id": "ORG-CTSA1-AFRINIC",
+        "asn": [
+            25726
+        ]
+    },
+    {
+        "org_id": "ORG-CUCL1-AP-APNIC",
+        "asn": [
+            136167
+        ]
+    },
+    {
+        "org_id": "ORG-CUKO1-AP-APNIC",
+        "asn": [
+            10099,
+            132101
+        ]
+    },
+    {
+        "org_id": "ORG-CUOL2-RIPE",
+        "asn": [
+            197407
+        ]
+    },
+    {
+        "org_id": "ORG-CUOP1-AP-APNIC",
+        "asn": [
+            132281
+        ]
+    },
+    {
+        "org_id": "ORG-CUOP2-AP-APNIC",
+        "asn": [
+            134821
+        ]
+    },
+    {
+        "org_id": "ORG-DA14-AP-APNIC",
+        "asn": [
+            55792
+        ]
+    },
+    {
+        "org_id": "ORG-DAP1-AP-APNIC",
+        "asn": [
+            17770,
+            18001
+        ]
+    },
+    {
+        "org_id": "ORG-DHPL1-AP-APNIC",
+        "asn": [
+            137402
+        ]
+    },
+    {
+        "org_id": "ORG-DIC1-RIPE",
+        "asn": [
+            5525,
+            15802,
+            57187,
+            197911
+        ]
+    },
+    {
+        "org_id": "ORG-DL6-RIPE",
+        "asn": [
+            5532,
+            15735,
+            29387
+        ]
+    },
+    {
+        "org_id": "ORG-DP1-AP-APNIC",
+        "asn": [
+            7642,
+            135053
+        ]
+    },
+    {
+        "org_id": "ORG-DTC1-AP-APNIC",
+        "asn": [
+            9587,
+            133543
+        ]
+    },
+    {
+        "org_id": "ORG-DTC8-RIPE",
+        "asn": [
+            202392
+        ]
+    },
+    {
+        "org_id": "ORG-DTS1-AFRINIC",
+        "asn": [
+            30990
+        ]
+    },
+    {
+        "org_id": "ORG-DTSB1-AP-APNIC",
+        "asn": [
+            4818
+        ]
+    },
+    {
+        "org_id": "ORG-DZTD1-RIPE",
+        "asn": [
+            43940,
+            201777
+        ]
+    },
+    {
+        "org_id": "ORG-EA2-AP-APNIC",
+        "asn": [
+            131284
+        ]
+    },
+    {
+        "org_id": "ORG-EB1-AFRINIC",
+        "asn": [
+            37136
+        ]
+    },
+    {
+        "org_id": "ORG-EDPE1-RIPE",
+        "asn": [
+            6661
+        ]
+    },
+    {
+        "org_id": "ORG-EKD1-RIPE",
+        "asn": [
+            198252
+        ]
+    },
+    {
+        "org_id": "ORG-EM1-AFRINIC",
+        "asn": [
+            36992
+        ]
+    },
+    {
+        "org_id": "ORG-ENAD1-RIPE",
+        "asn": [
+            44252
+        ]
+    },
+    {
+        "org_id": "ORG-ETC1-RIPE",
+        "asn": [
+            5384,
+            8959,
+            8960,
+            8961,
+            8966,
+            59981,
+            59982,
+            59983
+        ]
+    },
+    {
+        "org_id": "ORG-ETSC1-AFRINIC",
+        "asn": [
+            30987
+        ]
+    },
+    {
+        "org_id": "ORG-FA7-RIPE",
+        "asn": [
+            12874
+        ]
+    },
+    {
+        "org_id": "ORG-FECL1-RIPE",
+        "asn": [
+            49273
+        ]
+    },
+    {
+        "org_id": "ORG-FITL1-AP-APNIC",
+        "asn": [
+            9241
+        ]
+    },
+    {
+        "org_id": "ORG-FL5-AFRINIC",
+        "asn": [
+            328570
+        ]
+    },
+    {
+        "org_id": "ORG-FNL1-RIPE",
+        "asn": [
+            6793,
+            8236,
+            12375,
+            12918,
+            15501,
+            15970,
+            16086,
+            20542,
+            49422
+        ]
+    },
+    {
+        "org_id": "ORG-FSOM1-AP-APNIC",
+        "asn": [
+            10130,
+            38875,
+            45193,
+            58524,
+            139759
+        ]
+    },
+    {
+        "org_id": "ORG-FSUE2-RIPE",
+        "asn": [
+            48302
+        ]
+    },
+    {
+        "org_id": "ORG-GA14-RIPE",
+        "asn": [
+            21214
+        ]
+    },
+    {
+        "org_id": "ORG-GA8-AFRINIC",
+        "asn": [
+            328107
+        ]
+    },
+    {
+        "org_id": "ORG-GC21-RIPE",
+        "asn": [
+            6682,
+            49800,
+            196709
+        ]
+    },
+    {
+        "org_id": "ORG-GCN1-AP-APNIC",
+        "asn": [
+            55330
+        ]
+    },
+    {
+        "org_id": "ORG-GDID1-AFRINIC",
+        "asn": [
+            37529
+        ]
+    },
+    {
+        "org_id": "ORG-GKOK1-RIPE",
+        "asn": [
+            29355
+        ]
+    },
+    {
+        "org_id": "ORG-GL4-RIPE",
+        "asn": [
+            30733,
+            44982,
+            50565,
+            51804
+        ]
+    },
+    {
+        "org_id": "ORG-GL6-AP-APNIC",
+        "asn": [
+            24389
+        ]
+    },
+    {
+        "org_id": "ORG-GNC1-RIPE",
+        "asn": [
+            8301,
+            205369,
+            205707
+        ]
+    },
+    {
+        "org_id": "ORG-GOT2-AP-APNIC",
+        "asn": [
+            23917
+        ]
+    },
+    {
+        "org_id": "ORG-GSTS1-AFRINIC",
+        "asn": [
+            37544
+        ]
+    },
+    {
+        "org_id": "ORG-GTO1-RIPE",
+        "asn": [
+            8529,
+            28885
+        ]
+    },
+    {
+        "org_id": "ORG-HDTK1-RIPE",
+        "asn": [
+            41885
+        ]
+    },
+    {
+        "org_id": "ORG-HM1-RIPE",
+        "asn": [
+            20875
+        ]
+    },
+    {
+        "org_id": "ORG-HPCL1-RIPE",
+        "asn": [
+            47169,
+            196958
+        ]
+    },
+    {
+        "org_id": "ORG-HSVC1-RIPE",
+        "asn": [
+            8978
+        ]
+    },
+    {
+        "org_id": "ORG-IA562-RIPE",
+        "asn": [
+            34892
+        ]
+    },
+    {
+        "org_id": "ORG-IA73-RIPE",
+        "asn": [
+            21246
+        ]
+    },
+    {
+        "org_id": "ORG-ICSA1-RIPE",
+        "asn": [
+            44244
+        ]
+    },
+    {
+        "org_id": "ORG-IL12-AFRINIC",
+        "asn": [
+            22572
+        ]
+    },
+    {
+        "org_id": "ORG-IL159-RIPE",
+        "asn": [
+            49291
+        ]
+    },
+    {
+        "org_id": "ORG-IOMO1-RIPE",
+        "asn": [
+            196821
+        ]
+    },
+    {
+        "org_id": "ORG-ISPL4-AP-APNIC",
+        "asn": [
+            131219
+        ]
+    },
+    {
+        "org_id": "ORG-ISTF1-AP-APNIC",
+        "asn": [
+            45349,
+            131108
+        ]
+    },
+    {
+        "org_id": "ORG-ITCP1-RIPE",
+        "asn": [
+            58224
+        ]
+    },
+    {
+        "org_id": "ORG-JA4-RIPE",
+        "asn": [
+            29555
+        ]
+    },
+    {
+        "org_id": "ORG-JC7-RIPE",
+        "asn": [
+            34250,
+            197486,
+            201767,
+            202175
+        ]
+    },
+    {
+        "org_id": "ORG-JK1-RIPE",
+        "asn": [
+            12997
+        ]
+    },
+    {
+        "org_id": "ORG-JR8-RIPE",
+        "asn": [
+            2878,
+            3239,
+            5573,
+            5591,
+            6828,
+            6863,
+            8249,
+            8382,
+            8443,
+            8557,
+            8570,
+            8594,
+            8675,
+            8828,
+            8997,
+            12332,
+            12380,
+            12389,
+            12683,
+            12705,
+            12730,
+            12846,
+            13056,
+            13118,
+            15468,
+            15500,
+            15759,
+            15934,
+            16054,
+            16287,
+            16301,
+            20519,
+            21017,
+            21289,
+            21378,
+            21479,
+            21487,
+            24612,
+            24665,
+            24699,
+            24783,
+            24789,
+            24810,
+            24873,
+            25008,
+            25405,
+            25436,
+            25490,
+            25510,
+            25515,
+            28719,
+            28802,
+            28860,
+            29069,
+            29456,
+            30749,
+            30974,
+            31094,
+            31185,
+            31353,
+            31496,
+            33887,
+            33934,
+            34137,
+            34168,
+            34205,
+            34267,
+            34297,
+            34449,
+            34584,
+            34875,
+            34974,
+            35078,
+            35125,
+            35154,
+            35177,
+            35389,
+            35400,
+            35516,
+            35531,
+            38951,
+            38985,
+            39054,
+            39229,
+            39407,
+            41134,
+            41440,
+            42091,
+            42362,
+            42448,
+            42548,
+            42610,
+            42825,
+            43053,
+            43132,
+            43468,
+            43574,
+            43975,
+            44237,
+            44412,
+            44467,
+            47460,
+            51281,
+            56341,
+            56350,
+            196747
+        ]
+    },
+    {
+        "org_id": "ORG-JT7-RIPE",
+        "asn": [
+            8681
+        ]
+    },
+    {
+        "org_id": "ORG-JTB1-AP-APNIC",
+        "asn": [
+            4617,
+            10094
+        ]
+    },
+    {
+        "org_id": "ORG-JTN1-RIPE",
+        "asn": [
+            21127
+        ]
+    },
+    {
+        "org_id": "ORG-KDNA1-RIPE",
+        "asn": [
+            5434,
+            8825,
+            9198,
+            39725,
+            50482
+        ]
+    },
+    {
+        "org_id": "ORG-KTCA1-RIPE",
+        "asn": [
+            47589
+        ]
+    },
+    {
+        "org_id": "ORG-LA16-RIPE",
+        "asn": [
+            6747,
+            6906,
+            12578
+        ]
+    },
+    {
+        "org_id": "ORG-LA84-RIPE",
+        "asn": [
+            42003,
+            42020
+        ]
+    },
+    {
+        "org_id": "ORG-LCSL1-AP-APNIC",
+        "asn": [
+            5087,
+            45338
+        ]
+    },
+    {
+        "org_id": "ORG-LIEA1-RIPE",
+        "asn": [
+            16178
+        ]
+    },
+    {
+        "org_id": "ORG-LITC1-AFRINIC",
+        "asn": [
+            37558
+        ]
+    },
+    {
+        "org_id": "ORG-LL250-RIPE",
+        "asn": [
+            12976
+        ]
+    },
+    {
+        "org_id": "ORG-LLTA1-RIPE",
+        "asn": [
+            20634
+        ]
+    },
+    {
+        "org_id": "ORG-LMPC1-AFRINIC",
+        "asn": [
+            328286
+        ]
+    },
+    {
+        "org_id": "ORG-LR7-RIPE",
+        "asn": [
+            44733
+        ]
+    },
+    {
+        "org_id": "ORG-LTB1-RIPE",
+        "asn": [
+            3327
+        ]
+    },
+    {
+        "org_id": "ORG-LTC1-AFRINIC",
+        "asn": [
+            37203
+        ]
+    },
+    {
+        "org_id": "ORG-LTCL2-AP-APNIC",
+        "asn": [
+            9873,
+            133630
+        ]
+    },
+    {
+        "org_id": "ORG-LTM3-RIPE",
+        "asn": [
+            31436,
+            44927
+        ]
+    },
+    {
+        "org_id": "ORG-MA28-AFRINIC",
+        "asn": [
+            37508
+        ]
+    },
+    {
+        "org_id": "ORG-MAG9-RIPE",
+        "asn": [
+            200724
+        ]
+    },
+    {
+        "org_id": "ORG-MCC1-RIPE",
+        "asn": [
+            12538,
+            12958,
+            15378,
+            28702,
+            29412,
+            34266,
+            34287,
+            39374,
+            39462,
+            39475,
+            41330,
+            41592,
+            42437,
+            44711,
+            48092,
+            48190,
+            49331
+        ]
+    },
+    {
+        "org_id": "ORG-MCCO2-RIPE",
+        "asn": [
+            43358,
+            197207
+        ]
+    },
+    {
+        "org_id": "ORG-MCL12-RIPE",
+        "asn": [
+            35356
+        ]
+    },
+    {
+        "org_id": "ORG-MCPA1-RIPE",
+        "asn": [
+            42980
+        ]
+    },
+    {
+        "org_id": "ORG-MCS4-AFRINIC",
+        "asn": [
+            36945,
+            37042
+        ]
+    },
+    {
+        "org_id": "ORG-MCS5-AFRINIC",
+        "asn": [
+            327802
+        ]
+    },
+    {
+        "org_id": "ORG-MEA38-RIPE",
+        "asn": [
+            5377,
+            8264,
+            8841,
+            9207,
+            44933
+        ]
+    },
+    {
+        "org_id": "ORG-MGC1-RIPE",
+        "asn": [
+            41024,
+            44587
+        ]
+    },
+    {
+        "org_id": "ORG-MNL1-RIPE",
+        "asn": [
+            31257,
+            50427
+        ]
+    },
+    {
+        "org_id": "ORG-MOIA1-AFRINIC",
+        "asn": [
+            327903
+        ]
+    },
+    {
+        "org_id": "ORG-MPT1-AP-APNIC",
+        "asn": [
+            9988,
+            45558,
+            63982
+        ]
+    },
+    {
+        "org_id": "ORG-MS14-RIPE",
+        "asn": [
+            8926,
+            31580,
+            41221
+        ]
+    },
+    {
+        "org_id": "ORG-MS5-AFRINIC",
+        "asn": [
+            37342
+        ]
+    },
+    {
+        "org_id": "ORG-MT4-AP-APNIC",
+        "asn": [
+            9934
+        ]
+    },
+    {
+        "org_id": "ORG-MTC3-RIPE",
+        "asn": [
+            8470
+        ]
+    },
+    {
+        "org_id": "ORG-MTJ1-RIPE",
+        "asn": [
+            25106
+        ]
+    },
+    {
+        "org_id": "ORG-NA38-RIPE",
+        "asn": [
+            2119,
+            8210,
+            8394,
+            8786,
+            39197
+        ]
+    },
+    {
+        "org_id": "ORG-NA404-RIPE",
+        "asn": [
+            197943
+        ]
+    },
+    {
+        "org_id": "ORG-NCL2-AFRINIC",
+        "asn": [
+            328088
+        ]
+    },
+    {
+        "org_id": "ORG-NCL2-AP-APNIC",
+        "asn": [
+            55834,
+            137525
+        ]
+    },
+    {
+        "org_id": "ORG-NETS1-RIPE",
+        "asn": [
+            9038
+        ]
+    },
+    {
+        "org_id": "ORG-NPL10-AP-APNIC",
+        "asn": [
+            38565
+        ]
+    },
+    {
+        "org_id": "ORG-NT1-AFRINIC",
+        "asn": [
+            37155
+        ]
+    },
+    {
+        "org_id": "ORG-NTC1-AP-APNIC",
+        "asn": [
+            23752,
+            55726,
+            58413
+        ]
+    },
+    {
+        "org_id": "ORG-NTPL1-AP-APNIC",
+        "asn": [
+            137266
+        ]
+    },
+    {
+        "org_id": "ORG-OA21-RIPE",
+        "asn": [
+            33885
+        ]
+    },
+    {
+        "org_id": "ORG-OA6-AFRINIC",
+        "asn": [
+            37586
+        ]
+    },
+    {
+        "org_id": "ORG-OA9-AP-APNIC",
+        "asn": [
+            55943
+        ]
+    },
+    {
+        "org_id": "ORG-ODPE1-AP-APNIC",
+        "asn": [
+            18200
+        ]
+    },
+    {
+        "org_id": "ORG-OGQ1-AFRINIC",
+        "asn": [
+            37173
+        ]
+    },
+    {
+        "org_id": "ORG-OIVD1-RIPE",
+        "asn": [
+            48797
+        ]
+    },
+    {
+        "org_id": "ORG-OJSC22-RIPE",
+        "asn": [
+            51346
+        ]
+    },
+    {
+        "org_id": "ORG-OML2-AP-APNIC",
+        "asn": [
+            132167
+        ]
+    },
+    {
+        "org_id": "ORG-OMPL1-AP-APNIC",
+        "asn": [
+            55944
+        ]
+    },
+    {
+        "org_id": "ORG-ONDP1-AFRINIC",
+        "asn": [
+            36903,
+            36956
+        ]
+    },
+    {
+        "org_id": "ORG-OQTC1-RIPE",
+        "asn": [
+            50010,
+            201413
+        ]
+    },
+    {
+        "org_id": "ORG-OT3-AFRINIC",
+        "asn": [
+            37492,
+            328126
+        ]
+    },
+    {
+        "org_id": "ORG-OTA3-AFRINIC",
+        "asn": [
+            327931
+        ]
+    },
+    {
+        "org_id": "ORG-OTL21-RIPE",
+        "asn": [
+            204137
+        ]
+    },
+    {
+        "org_id": "ORG-PA11-AFRINIC",
+        "asn": [
+            17400
+        ]
+    },
+    {
+        "org_id": "ORG-PC2-AFRINIC",
+        "asn": [
+            37184
+        ]
+    },
+    {
+        "org_id": "ORG-PDTI1-RIPE",
+        "asn": [
+            8661
+        ]
+    },
+    {
+        "org_id": "ORG-PEOP1-RIPE",
+        "asn": [
+            9146
+        ]
+    },
+    {
+        "org_id": "ORG-PI25-RIPE",
+        "asn": [
+            43976
+        ]
+    },
+    {
+        "org_id": "ORG-PIMM1-AP-APNIC",
+        "asn": [
+            4795,
+            24052,
+            38490
+        ]
+    },
+    {
+        "org_id": "ORG-PIPL1-AP-APNIC",
+        "asn": [
+            4628,
+            4765,
+            45166,
+            58578,
+            135623,
+            136464
+        ]
+    },
+    {
+        "org_id": "ORG-PIT1-AP-APNIC",
+        "asn": [
+            4761,
+            17922,
+            45239
+        ]
+    },
+    {
+        "org_id": "ORG-PNCC1-AP-APNIC",
+        "asn": [
+            17893
+        ]
+    },
+    {
+        "org_id": "ORG-PPL1-AFRINIC",
+        "asn": [
+            36999
+        ]
+    },
+    {
+        "org_id": "ORG-PS11-RIPE",
+        "asn": [
+            15720
+        ]
+    },
+    {
+        "org_id": "ORG-PTC4-RIPE",
+        "asn": [
+            30873
+        ]
+    },
+    {
+        "org_id": "ORG-PTCL1-AP-APNIC",
+        "asn": [
+            4661,
+            9557,
+            17557,
+            45595
+        ]
+    },
+    {
+        "org_id": "ORG-PZPP1-RIPE",
+        "asn": [
+            51052
+        ]
+    },
+    {
+        "org_id": "ORG-PZPU1-RIPE",
+        "asn": [
+            44323
+        ]
+    },
+    {
+        "org_id": "ORG-QGTC1-RIPE",
+        "asn": [
+            9155
+        ]
+    },
+    {
+        "org_id": "ORG-QT1-RIPE",
+        "asn": [
+            8781,
+            34796,
+            42298,
+            59966
+        ]
+    },
+    {
+        "org_id": "ORG-RA25-RIPE",
+        "asn": [
+            8342
+        ]
+    },
+    {
+        "org_id": "ORG-RAB1-RIPE",
+        "asn": [
+            6697
+        ]
+    },
+    {
+        "org_id": "ORG-RRDT1-RIPE",
+        "asn": [
+            60174
+        ]
+    },
+    {
+        "org_id": "ORG-RSCC1-RIPE",
+        "asn": [
+            57107
+        ]
+    },
+    {
+        "org_id": "ORG-RTSD1-RIPE",
+        "asn": [
+            29003
+        ]
+    },
+    {
+        "org_id": "ORG-RUET1-RIPE",
+        "asn": [
+            35647,
+            60280
+        ]
+    },
+    {
+        "org_id": "ORG-RVD1-RIPE",
+        "asn": [
+            41937
+        ]
+    },
+    {
+        "org_id": "ORG-SA20-RIPE",
+        "asn": [
+            6785,
+            9158
+        ]
+    },
+    {
+        "org_id": "ORG-SACL1-AP-APNIC",
+        "asn": [
+            38600,
+            45498
+        ]
+    },
+    {
+        "org_id": "ORG-SCTL1-AP-APNIC",
+        "asn": [
+            24545
+        ]
+    },
+    {
+        "org_id": "ORG-SDTD1-RIPE",
+        "asn": [
+            6752
+        ]
+    },
+    {
+        "org_id": "ORG-SEHA1-RIPE",
+        "asn": [
+            201590
+        ]
+    },
+    {
+        "org_id": "ORG-SGL2-AP-APNIC",
+        "asn": [
+            17458
+        ]
+    },
+    {
+        "org_id": "ORG-SI1-RIPE",
+        "asn": [
+            3303,
+            6837,
+            8300,
+            21273,
+            202088,
+            205762
+        ]
+    },
+    {
+        "org_id": "ORG-SID2-RIPE",
+        "asn": [
+            2610,
+            5603,
+            8307,
+            42681
+        ]
+    },
+    {
+        "org_id": "ORG-SIG9-RIPE",
+        "asn": [
+            198876
+        ]
+    },
+    {
+        "org_id": "ORG-SISC1-AP-APNIC",
+        "asn": [
+            139609
+        ]
+    },
+    {
+        "org_id": "ORG-SJVC1-AP-APNIC",
+        "asn": [
+            131279
+        ]
+    },
+    {
+        "org_id": "ORG-SL1-AP-APNIC",
+        "asn": [
+            17988
+        ]
+    },
+    {
+        "org_id": "ORG-SLTC1-AFRINIC",
+        "asn": [
+            36928
+        ]
+    },
+    {
+        "org_id": "ORG-SLTL1-AP-APNIC",
+        "asn": [
+            9329,
+            17904,
+            45489,
+            131173
+        ]
+    },
+    {
+        "org_id": "ORG-SNDT2-AFRINIC",
+        "asn": [
+            37385
+        ]
+    },
+    {
+        "org_id": "ORG-SOPL2-AP-APNIC",
+        "asn": [
+            4643,
+            4778,
+            4794,
+            4804,
+            7474,
+            9243,
+            9250,
+            9252,
+            9257,
+            9261,
+            9279,
+            9342,
+            9408,
+            9426,
+            9438,
+            9447,
+            9473,
+            9477,
+            9480,
+            9550,
+            9553,
+            9564,
+            9624,
+            9626,
+            9668,
+            9672,
+            9682,
+            9746,
+            9932,
+            9933,
+            9983,
+            9985,
+            10115,
+            10119,
+            10128,
+            10134,
+            10142,
+            10150,
+            10218,
+            10221,
+            10237,
+            17461,
+            17662,
+            17719,
+            17722,
+            17738,
+            17757,
+            18102,
+            18191,
+            18208,
+            18213,
+            18430,
+            23895,
+            23909,
+            23968,
+            24340,
+            24510,
+            37931,
+            38214,
+            45206,
+            45228,
+            45623,
+            56084,
+            56104
+        ]
+    },
+    {
+        "org_id": "ORG-SP2-AFRINIC",
+        "asn": [
+            19711,
+            327762
+        ]
+    },
+    {
+        "org_id": "ORG-SPL1-AP-APNIC",
+        "asn": [
+            3758,
+            4772,
+            9247,
+            9719,
+            9877,
+            17919,
+            38213
+        ]
+    },
+    {
+        "org_id": "ORG-SRAT1-RIPE",
+        "asn": [
+            15419,
+            44771
+        ]
+    },
+    {
+        "org_id": "ORG-SRS3-RIPE",
+        "asn": [
+            15471
+        ]
+    },
+    {
+        "org_id": "ORG-SSCC1-RIPE",
+        "asn": [
+            198247,
+            198381,
+            198394,
+            198504,
+            206283,
+            206284
+        ]
+    },
+    {
+        "org_id": "ORG-SSTC1-RIPE",
+        "asn": [
+            25019,
+            31177,
+            39386,
+            39891,
+            41426
+        ]
+    },
+    {
+        "org_id": "ORG-ST8-AP-APNIC",
+        "asn": [
+            131267
+        ]
+    },
+    {
+        "org_id": "ORG-STCL1-AP-APNIC",
+        "asn": [
+            45891,
+            134525
+        ]
+    },
+    {
+        "org_id": "ORG-STE1-RIPE",
+        "asn": [
+            29256,
+            29386,
+            201550
+        ]
+    },
+    {
+        "org_id": "ORG-STHK1-AP-APNIC",
+        "asn": [
+            17888
+        ]
+    },
+    {
+        "org_id": "ORG-STIE1-AP-APNIC",
+        "asn": [
+            7473,
+            7700,
+            10140,
+            24493,
+            38612
+        ]
+    },
+    {
+        "org_id": "ORG-STJL1-AP-APNIC",
+        "asn": [
+            17977
+        ]
+    },
+    {
+        "org_id": "ORG-STKL1-AP-APNIC",
+        "asn": [
+            9884
+        ]
+    },
+    {
+        "org_id": "ORG-STLM1-AP-APNIC",
+        "asn": [
+            9506
+        ]
+    },
+    {
+        "org_id": "ORG-STMP1-AP-APNIC",
+        "asn": [
+            45143
+        ]
+    },
+    {
+        "org_id": "ORG-STPL11-AP-APNIC",
+        "asn": [
+            23856,
+            137468
+        ]
+    },
+    {
+        "org_id": "ORG-STTL1-AP-APNIC",
+        "asn": [
+            4845
+        ]
+    },
+    {
+        "org_id": "ORG-TA1002-RIPE",
+        "asn": [
+            49769
+        ]
+    },
+    {
+        "org_id": "ORG-TA23-AFRINIC",
+        "asn": [
+            33774,
+            36947,
+            327712
+        ]
+    },
+    {
+        "org_id": "ORG-TA40-AFRINIC",
+        "asn": [
+            37705
+        ]
+    },
+    {
+        "org_id": "ORG-TA44-RIPE",
+        "asn": [
+            48503
+        ]
+    },
+    {
+        "org_id": "ORG-TACP1-AP-APNIC",
+        "asn": [
+            10089,
+            17724,
+            24378
+        ]
+    },
+    {
+        "org_id": "ORG-TBHA1-RIPE",
+        "asn": [
+            43905,
+            47152,
+            47153
+        ]
+    },
+    {
+        "org_id": "ORG-TBL1-AP-APNIC",
+        "asn": [
+            45925,
+            45925
+        ]
+    },
+    {
+        "org_id": "ORG-TC1-AP-APNIC",
+        "asn": [
+            17726,
+            132820
+        ]
+    },
+    {
+        "org_id": "ORG-TCAL1-AFRINIC",
+        "asn": [
+            36907
+        ]
+    },
+    {
+        "org_id": "ORG-TCC3-AP-APNIC",
+        "asn": [
+            38201
+        ]
+    },
+    {
+        "org_id": "ORG-TCL12-AP-APNIC",
+        "asn": [
+            132579
+        ]
+    },
+    {
+        "org_id": "ORG-TCOI1-RIPE",
+        "asn": [
+            12880,
+            60148
+        ]
+    },
+    {
+        "org_id": "ORG-TDM1-AFRINIC",
+        "asn": [
+            30619,
+            37064
+        ]
+    },
+    {
+        "org_id": "ORG-TG8-RIPE",
+        "asn": [
+            8818
+        ]
+    },
+    {
+        "org_id": "ORG-TGSA1-RIPE",
+        "asn": [
+            15932,
+            15932
+        ]
+    },
+    {
+        "org_id": "ORG-TI10-AP-APNIC",
+        "asn": [
+            7713,
+            17974
+        ]
+    },
+    {
+        "org_id": "ORG-TIC4-RIPE",
+        "asn": [
+            48159,
+            49666,
+            50722
+        ]
+    },
+    {
+        "org_id": "ORG-TIIK1-AP-APNIC",
+        "asn": [
+            58944
+        ]
+    },
+    {
+        "org_id": "ORG-TIIP2-AP-APNIC",
+        "asn": [
+            56308,
+            58513
+        ]
+    },
+    {
+        "org_id": "ORG-TIIS1-AP-APNIC",
+        "asn": [
+            58731
+        ]
+    },
+    {
+        "org_id": "ORG-TIN2-RIPE",
+        "asn": [
+            20661
+        ]
+    },
+    {
+        "org_id": "ORG-TL274-RIPE",
+        "asn": [
+            60388
+        ]
+    },
+    {
+        "org_id": "ORG-TM1-AP-APNIC",
+        "asn": [
+            133385
+        ]
+    },
+    {
+        "org_id": "ORG-TM2-AFRINIC",
+        "asn": [
+            36865
+        ]
+    },
+    {
+        "org_id": "ORG-TMS6-RIPE",
+        "asn": [
+            48526,
+            56665,
+            204313
+        ]
+    },
+    {
+        "org_id": "ORG-TN2-AFRINIC",
+        "asn": [
+            20459,
+            36996
+        ]
+    },
+    {
+        "org_id": "ORG-TNOA1-RIPE",
+        "asn": [
+            51495
+        ]
+    },
+    {
+        "org_id": "ORG-TPCL1-AP-APNIC",
+        "asn": [
+            9737,
+            23969,
+            37930,
+            38040,
+            131293,
+            134166,
+            137053
+        ]
+    },
+    {
+        "org_id": "ORG-TPL1-AFRINIC",
+        "asn": [
+            37204
+        ]
+    },
+    {
+        "org_id": "ORG-TPL11-AP-APNIC",
+        "asn": [
+            17828,
+            135571
+        ]
+    },
+    {
+        "org_id": "ORG-TPL12-AP-APNIC",
+        "asn": [
+            38009,
+            45826
+        ]
+    },
+    {
+        "org_id": "ORG-TPL5-AP-APNIC",
+        "asn": [
+            24499
+        ]
+    },
+    {
+        "org_id": "ORG-TS1-RIPE",
+        "asn": [
+            25144
+        ]
+    },
+    {
+        "org_id": "ORG-TS16-RIPE",
+        "asn": [
+            6778,
+            20804,
+            35253
+        ]
+    },
+    {
+        "org_id": "ORG-TS21-RIPE",
+        "asn": [
+            8400
+        ]
+    },
+    {
+        "org_id": "ORG-TS4-AFRINIC",
+        "asn": [
+            37693
+        ]
+    },
+    {
+        "org_id": "ORG-TSL2-AFRINIC",
+        "asn": [
+            5713,
+            5734,
+            37118,
+            37167,
+            37251,
+            37457,
+            328028
+        ]
+    },
+    {
+        "org_id": "ORG-TSTC1-RIPE",
+        "asn": [
+            44703
+        ]
+    },
+    {
+        "org_id": "ORG-TTMB1-AP-APNIC",
+        "asn": [
+            4788,
+            9986
+        ]
+    },
+    {
+        "org_id": "ORG-TUHV1-RIPE",
+        "asn": [
+            47524
+        ]
+    },
+    {
+        "org_id": "ORG-TVL1-AP-APNIC",
+        "asn": [
+            9249
+        ]
+    },
+    {
+        "org_id": "ORG-TZ1-AFRINIC",
+        "asn": [
+            327770
+        ]
+    },
+    {
+        "org_id": "ORG-UBNB1-RIPE",
+        "asn": [
+            1891,
+            3304,
+            8644
+        ]
+    },
+    {
+        "org_id": "ORG-UL32-RIPE",
+        "asn": [
+            15638
+        ]
+    },
+    {
+        "org_id": "ORG-UMSL2-RIPE",
+        "asn": [
+            64466
+        ]
+    },
+    {
+        "org_id": "ORG-UNCN1-RIPE",
+        "asn": [
+            8193,
+            28910,
+            202660
+        ]
+    },
+    {
+        "org_id": "ORG-UPL2-AP-APNIC",
+        "asn": [
+            10223
+        ]
+    },
+    {
+        "org_id": "ORG-VBBC1-RIPE",
+        "asn": [
+            51375
+        ]
+    },
+    {
+        "org_id": "ORG-VBS1-AFRINIC",
+        "asn": [
+            327799
+        ]
+    },
+    {
+        "org_id": "ORG-VCS1-AFRINIC",
+        "asn": [
+            37620
+        ]
+    },
+    {
+        "org_id": "ORG-VFL1-AP-APNIC",
+        "asn": [
+            38442
+        ]
+    },
+    {
+        "org_id": "ORG-VPL4-AP-APNIC",
+        "asn": [
+            38623
+        ]
+    },
+    {
+        "org_id": "ORG-VS2-AP-APNIC",
+        "asn": [
+            9471
+        ]
+    },
+    {
+        "org_id": "ORG-VSA1-RIPE",
+        "asn": [
+            25169
+        ]
+    },
+    {
+        "org_id": "ORG-VT2-AFRINIC",
+        "asn": [
+            327885
+        ]
+    },
+    {
+        "org_id": "ORG-VTL1-AP-APNIC",
+        "asn": [
+            133606
+        ]
+    },
+    {
+        "org_id": "ORG-WPMT1-RIPE",
+        "asn": [
+            48966
+        ]
+    },
+    {
+        "org_id": "ORG-WT1-RIPE",
+        "asn": [
+            29357
+        ]
+    },
+    {
+        "org_id": "ORG-WTA1-AFRINIC",
+        "asn": [
+            33779
+        ]
+    },
+    {
+        "org_id": "ORG-YI2-RIPE",
+        "asn": [
+            8771,
+            8771
+        ]
+    },
+    {
+        "org_id": "ORG-ZA1-AFRINIC",
+        "asn": [
+            7420
+        ]
+    },
+    {
+        "org_id": "ORG-ZTCL1-AFRINIC",
+        "asn": [
+            37154
+        ]
+    }
+]
