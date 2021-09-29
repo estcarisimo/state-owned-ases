@@ -183,7 +183,7 @@ To get familiar with the datasets, we include on this repo **four** Jupyter Note
 
 ## (Optional) setup for running these examples
 
-We highly recommend that you to use a Python virtual environment to run these examples. In this repository, we also include a ```requirements.txt``` to install all python packages needed to run the examples.
+We highly recommend you to use a Python virtual environment to run these examples. In this repository, we also include a ```requirements.txt``` to install all python packages needed to run the examples.
 
 
 To install this virtual environment, you have to run the following commands
