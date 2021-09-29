@@ -7,10 +7,9 @@ The list of _ASes of State-Owned Internet Operators_ is a product of the researc
 ## Table of Contents
 
 1. [State-owned ASes dataset](#dataset)
-  1.1. [List of ASes operated by state-owned providers](#dataset)
-    1.1. [Data structure](#dataset:data-structure)
-    1.2. [Data formats](#dataset:data-formats)
-    1.3. [Minority state-owned providers](#dataset:minority-state-owned)
+  1.1. [Data structure](#dataset:data-structure)
+  1.2. [Data formats](#dataset:data-formats)
+  1.3. [Minority state-owned providers](#dataset:minority-state-owned)
 2. [Examples](#examples)
 3. [Citation](#citation)
 
@@ -150,14 +149,14 @@ We provide **two alternatives** to access the dataset using CSV files.
 
 As described in the [Data structure](#dataset:data-structure) example, Organization and ASes JSON files are available here:
 - state-owned ASes ([Orgs](data/state-owned-ases/json/state_owned_ases_table_organizations.json)) and ([ASes](data/state-owned-ases/json/state_owned_ases_table_ases.json)).
-- The preliminary and partial list of _minority_ state-owned ASes ([Orgs](data/minority-state-owned-ases/json/minority_state_owned_ases_table_organizations.json)) and([ASes](data/minority-state-owned-ases/json/minority_state_owned_ases_table_ases.json)).
+- The preliminary and partial list of _minority_ state-owned ASes ([Orgs](data/minority-state-owned-ases/json/minority_state_owned_ases_table_organizations.json)) and ([ASes](data/minority-state-owned-ases/json/minority_state_owned_ases_table_ases.json)).
 
 #### sqlite database
 
 
 We also provide access to the dataset using sqlite. We provide two separate databases for clarity. The first database includes the list of state-owned Ases. The second databases includes the preliminary and partial list of minority state-owned ASes. These databases include two tables each, ```organizations``` and ```ases```. The files containing the sqlite databases are located here:
-  - state-owned ASes ([sqlite database](data/state-owned-ases/sqlite/state_owned_ases.sqlite))
-  - The preliminary and partial list of _minority_ state-owned ASes ([sqlite database](data/minority-state-owned-ases/sqlite/minoirty_state_owned_ases.sqlite))
+- state-owned ASes ([sqlite database](data/state-owned-ases/sqlite/state_owned_ases.sqlite))
+- The preliminary and partial list of _minority_ state-owned ASes ([sqlite database](data/minority-state-owned-ases/sqlite/minority_state_owned_ases.sqlite))
 
 ## <a name="dataset:minority-state-owned"></a>1.3. Description of the list of minority state-owned providers
 
@@ -172,15 +171,15 @@ Identifying ASes operated by minority state-owned Internet Operators was beyond 
 To get familiar with the datasets, we include on this repo **four** Jupyter Notebooks for both datasets. We use Python on these notebooks to also provide methods that enable loading and interacting with the dataset. These examples are here:
 
 1. State-Owned ASes
-  1. [Load single-table file](examples/state-owned-ases/load_from_single_table_csv_file.ipynb)
-  2. [Load Organizations and ASes CSV files](examples/state-owned-ases/load_from_organizations_and_ases_csv_files.ipynb)
-  3. [Load from JSON](examples/state-owned-ases/load_from_json.ipynb)
-  4. [Fetch data from sqlite database](examples/state-owned-ases/load_from_sqlite.ipynb)
+  a. [Load single-table file](examples/state-owned-ases/load_from_single_table_csv_file.ipynb)
+  b. [Load Organizations and ASes CSV files](examples/state-owned-ases/load_from_organizations_and_ases_csv_files.ipynb)
+  c. [Load from JSON](examples/state-owned-ases/load_from_json.ipynb)
+  d. [Fetch data from sqlite database](examples/state-owned-ases/load_from_sqlite.ipynb)
 2. Minority State-Owned ASes
-  1. [Load single-table file](examples/minority-state-owned-ases/load_from_single_table_csv_file.ipynb)
-  2. [Load Organizations and ASes CSV files](examples/minority-state-owned-ases/load_from_organizations_and_ases_csv_files.ipynb)
-  3. [Load from JSON](examples/minority-state-owned-ases/load_from_json.ipynb)
-  4. [Fetch data from sqlite database](examples/minority-state-owned-ases/load_from_sqlite.ipynb)
+  a. [Load single-table file](examples/minority-state-owned-ases/load_from_single_table_csv_file.ipynb)
+  b. [Load Organizations and ASes CSV files](examples/minority-state-owned-ases/load_from_organizations_and_ases_csv_files.ipynb)
+  c. [Load from JSON](examples/minority-state-owned-ases/load_from_json.ipynb)
+  d. [Fetch data from sqlite database](examples/minority-state-owned-ases/load_from_sqlite.ipynb)
 
 ## (Optional) setup for running these examples
 
