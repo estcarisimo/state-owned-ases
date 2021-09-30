@@ -2,7 +2,7 @@
 
 Welcome to the state-owned ASes dataset repository. Here you can find a dataset containing a list of _ASes of State-Owned Internet Operators_.
 
-The list of _ASes of State-Owned Internet Operators_ is a product of the research published in the paper _"Identifying ASes of State-owned Internet operators"_ appearing in the Proceedings of the ACM Internet Measurement Conference (IMC) 2021, November 2021, Virtual Event.
+The list of _ASes of State-Owned Internet Operators_ is a product of the research published in the paper _"Identifying ASes of State-owned Internet operators"_ by E. Carisimo, A Gamero-Garrido, A. Snoeren and A. Dainotti, appearing in the Proceedings of the ACM Internet Measurement Conference (IMC) 2021, November 2021, Virtual Event.
 
 ## Table of Contents
 
