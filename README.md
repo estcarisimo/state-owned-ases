@@ -203,4 +203,19 @@ $ pip3 install -r requirements.txt
 If you use our dataset, please cite it as:
 
 ```
+@inproceedings{10.1145/3487552.3487822,
+author = {Carisimo, Esteban and Gamero-Garrido, Alexander and Snoeren, Alex C. and Dainotti, Alberto},
+title = {Identifying ASes of State-Owned Internet Operators},
+year = {2021},
+isbn = {9781450391290},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3487552.3487822},
+doi = {10.1145/3487552.3487822},
+booktitle = {Proceedings of the 21st ACM Internet Measurement Conference},
+pages = {687–702},
+numpages = {16},
+location = {Virtual Event},
+series = {IMC '21}
+}
 ```
