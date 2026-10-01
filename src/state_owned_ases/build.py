@@ -14,6 +14,7 @@ import pyarrow.parquet as pq
 from state_owned_ases import canonical
 from state_owned_ases.exporters import (
     FORMATS,
+    SQLITE_SELECT,
     ExportFormat,
     arrow_table,
     dataset_metadata,
@@ -75,7 +76,7 @@ def _parquet_matches(dataset: Dataset, path: Path) -> bool:
 def _sqlite_matches(dataset: Dataset, path: Path) -> bool:
     connection = sqlite3.connect(f"file:{path}?mode=ro", uri=True)
     try:
-        rows = connection.execute(f"SELECT {', '.join(COLUMNS)} FROM ases ORDER BY asn").fetchall()
+        rows = connection.execute(SQLITE_SELECT).fetchall()
         metadata = dict(connection.execute("SELECT key, value FROM metadata").fetchall())
     finally:
         connection.close()

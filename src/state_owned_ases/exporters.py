@@ -166,6 +166,21 @@ CREATE TABLE metadata (key TEXT PRIMARY KEY, value TEXT NOT NULL);
 """
 
 
+#: Literal SQL (no string building); tests check the column lists against COLUMNS.
+SQLITE_INSERT = (
+    "INSERT INTO ases (asn, conglomerate, org_id, org_name, ownership_percentage, "
+    "ownership_cc, ownership_country_name, rir, source, quote, quote_lang, url, "
+    "additional_info, inputs, parent_org, target_cc, target_country_name) "
+    "VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)"
+)
+SQLITE_SELECT = (
+    "SELECT asn, conglomerate, org_id, org_name, ownership_percentage, "
+    "ownership_cc, ownership_country_name, rir, source, quote, quote_lang, url, "
+    "additional_info, inputs, parent_org, target_cc, target_country_name "
+    "FROM ases ORDER BY asn"
+)
+
+
 def write_sqlite(dataset: Dataset, path: Path) -> None:
     """Write a SQLite database with an ``ases`` table and a ``metadata`` key/value table.
 
@@ -176,9 +191,8 @@ def write_sqlite(dataset: Dataset, path: Path) -> None:
     try:
         with connection:
             connection.executescript(SQLITE_DDL)
-            placeholders = ", ".join("?" for _ in COLUMNS)
             connection.executemany(
-                f"INSERT INTO ases ({', '.join(COLUMNS)}) VALUES ({placeholders})",
+                SQLITE_INSERT,
                 ([flat_row(record)[column] for column in COLUMNS] for record in dataset.records),
             )
             connection.executemany(

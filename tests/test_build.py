@@ -5,6 +5,7 @@ from __future__ import annotations
 import gzip
 import hashlib
 import json
+import re
 import shutil
 from pathlib import Path
 
@@ -13,8 +14,16 @@ import zstandard
 from conftest import CANONICAL_DIR, EXPORTS_DIR
 
 from state_owned_ases.build import check_exports, export_all
-from state_owned_ases.exporters import FORMATS, gzip_bytes, zstd_bytes
+from state_owned_ases.exporters import (
+    FORMATS,
+    SQLITE_DDL,
+    SQLITE_INSERT,
+    SQLITE_SELECT,
+    gzip_bytes,
+    zstd_bytes,
+)
 from state_owned_ases.manifest import CHECKSUMS_NAME, MANIFEST_NAME
+from state_owned_ases.schema import COLUMNS
 
 pytestmark = pytest.mark.behavior
 
@@ -92,3 +101,17 @@ def test_compression_is_reproducible() -> None:
     assert gzip_bytes(data) == gzip_bytes(data)
     assert gzip.decompress(gzip_bytes(data)) == data
     assert zstandard.ZstdDecompressor().decompress(zstd_bytes(data)) == data
+
+
+def test_sqlite_statements_match_schema_columns() -> None:
+    def columns(sql: str, pattern: str) -> tuple[str, ...]:
+        match = re.search(pattern, sql, re.DOTALL)
+        assert match, sql
+        return tuple(c.strip() for c in match.group(1).split(","))
+
+    assert columns(SQLITE_INSERT, r"INSERT INTO ases \((.*?)\)") == COLUMNS
+    assert SQLITE_INSERT.count("?") == len(COLUMNS)
+    assert columns(SQLITE_SELECT, r"SELECT (.*) FROM") == COLUMNS
+    ddl = re.search(r"CREATE TABLE ases \((.*?)\);", SQLITE_DDL, re.DOTALL)
+    assert ddl
+    assert tuple(line.split()[0] for line in ddl.group(1).strip().splitlines()) == COLUMNS
