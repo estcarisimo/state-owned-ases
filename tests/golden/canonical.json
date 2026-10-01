@@ -1,0 +1,36 @@
+{
+  "state_owned_ases.json": {
+    "sha256": "733ee447d85b5d2be237b334aa2aa321be947b20727c4c60d0890d3ed08ad142",
+    "summary": {
+      "name": "state-owned-ases",
+      "title": "ASes of majority state-owned Internet operators",
+      "ownership": "majority",
+      "reference_period": [
+        "2019-06",
+        "2020-11"
+      ],
+      "records": 984,
+      "organizations": 467,
+      "conglomerates": 176,
+      "ownership_countries": 125,
+      "foreign_subsidiary_ases": 193
+    }
+  },
+  "minority_state_owned_ases.json": {
+    "sha256": "71248a54000e6ec3aa9a5ae59f4933a1293d297fa2301115d109973c9cf966e0",
+    "summary": {
+      "name": "minority-state-owned-ases",
+      "title": "ASes of minority state-owned Internet operators (partial)",
+      "ownership": "minority",
+      "reference_period": [
+        "2019-06",
+        "2020-11"
+      ],
+      "records": 301,
+      "organizations": 39,
+      "conglomerates": 28,
+      "ownership_countries": 25,
+      "foreign_subsidiary_ases": 77
+    }
+  }
+}

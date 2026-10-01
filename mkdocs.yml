@@ -1,0 +1,54 @@
+# Documentation site, published to GitHub Pages by .github/workflows/pages.yml.
+# Build it with `uv run --group docs mkdocs build --strict` (CI does on every PR).
+# Pages include sections of README.md, CHANGELOG.md and CONTRIBUTING.md via snippets,
+# so the site and the repository files cannot drift apart.
+site_name: State-Owned ASes
+site_description: Archival dataset of ASes of state-owned Internet operators (ACM IMC 2021)
+site_url: https://estcarisimo.github.io/state-owned-ases/
+repo_url: https://github.com/estcarisimo/state-owned-ases
+repo_name: estcarisimo/state-owned-ases
+edit_uri: edit/main/docs/
+copyright: Data CC BY 4.0, code MIT. Esteban Carisimo and contributors.
+
+theme:
+  name: material
+  features:
+    - content.code.copy
+    - navigation.top
+    - search.highlight
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+nav:
+  - Home: index.md
+  - Data and formats: data.md
+  - Loading the data: loading.md
+  - Methodology: methodology.md
+  - Changelog: changelog.md
+  - Contributing: contributing.md
+  - Citing: citing.md
+
+markdown_extensions:
+  - admonition
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.snippets:
+      # Paths are relative to the repository root; a missing file or section fails the
+      # build instead of rendering an empty page.
+      base_path: ["."]
+      check_paths: true
+
+plugins:
+  - search

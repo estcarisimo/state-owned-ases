@@ -1,0 +1,40 @@
+# Run `uv run pre-commit install` once, then hooks run on every commit.
+# Ruff runs through `uv run` so the hook uses the version pinned in uv.lock (as CI does).
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v5.0.0
+    hooks:
+      - id: trailing-whitespace
+        exclude: ^data/
+      - id: end-of-file-fixer
+        exclude: ^data/
+      - id: check-yaml
+      - id: check-toml
+      - id: check-json
+        exclude: ^data/exports/.*\.json$  # large; validated by `state-owned-ases check`
+      - id: check-merge-conflict
+      - id: mixed-line-ending
+        exclude: ^data/
+      - id: check-added-large-files
+        args: ["--maxkb=1500"]  # data/canonical/state_owned_ases.json is ~800 KB
+
+  - repo: local
+    hooks:
+      - id: ruff-check
+        name: ruff check
+        entry: uv run ruff check --fix
+        language: system
+        types_or: [python, pyi]
+        require_serial: true
+      - id: ruff-format
+        name: ruff format
+        entry: uv run ruff format
+        language: system
+        types_or: [python, pyi]
+        require_serial: true
+      - id: state-owned-ases-check
+        name: exports up to date with data/canonical
+        entry: uv run state-owned-ases check
+        language: system
+        files: ^(data/|src/state_owned_ases/)
+        pass_filenames: false
