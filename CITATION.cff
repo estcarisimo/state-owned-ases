@@ -1,0 +1,48 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite the IMC 2021 paper below."
+type: dataset
+title: "State-Owned ASes: ASes of State-Owned Internet Operators"
+abstract: >-
+  Archival dataset of Autonomous Systems operated by majority state-owned Internet
+  operators (and a partial list of minority state-owned ones), with the evidence that
+  confirmed state ownership. Ownership reflects June 2019 to November 2020.
+authors:
+  - family-names: Carisimo
+    given-names: Esteban
+    affiliation: Northwestern University
+  - family-names: Gamero-Garrido
+    given-names: Alexander
+  - family-names: Snoeren
+    given-names: Alex C.
+  - family-names: Dainotti
+    given-names: Alberto
+repository-code: https://github.com/estcarisimo/state-owned-ases
+url: https://estcarisimo.github.io/state-owned-ases/
+license: CC-BY-4.0
+version: 2.0.0
+date-released: "2026-09-30"
+keywords:
+  - internet measurement
+  - autonomous systems
+  - state-owned enterprises
+  - internet governance
+preferred-citation:
+  type: conference-paper
+  title: "Identifying ASes of State-Owned Internet Operators"
+  authors:
+    - family-names: Carisimo
+      given-names: Esteban
+    - family-names: Gamero-Garrido
+      given-names: Alexander
+    - family-names: Snoeren
+      given-names: Alex C.
+    - family-names: Dainotti
+      given-names: Alberto
+  collection-title: "Proceedings of the 21st ACM Internet Measurement Conference (IMC '21)"
+  publisher:
+    name: Association for Computing Machinery
+  year: 2021
+  start: 687
+  end: 702
+  isbn: "9781450391290"
+  doi: 10.1145/3487552.3487822
