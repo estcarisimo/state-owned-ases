@@ -3,7 +3,7 @@
 All writers are deterministic for a given dependency set: no timestamps, fixed row and
 column order, fixed compression levels. Text formats are therefore byte-reproducible;
 SQLite and Parquet embed library versions in their headers and are compared logically
-instead (see :mod:`state_owned_ases.check`).
+instead (see :func:`state_owned_ases.build.check_exports`).
 """
 
 from __future__ import annotations

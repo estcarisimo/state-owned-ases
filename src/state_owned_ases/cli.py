@@ -28,6 +28,23 @@ CanonicalOption = typer.Option(
 )
 
 
+def require_canonical(canonical_dir: Path) -> Path:
+    """Exit with a one-line error unless ``canonical_dir`` holds every canonical document.
+
+    The data is not part of the installed package: commands that read it run from the
+    root of a clone, or take ``--canonical``.
+    """
+    missing = [name for name in canonical.DATASET_FILES if not (canonical_dir / name).is_file()]
+    if missing:
+        typer.echo(
+            f"error: {canonical_dir}/ does not contain {', '.join(missing)}. Run from the root"
+            " of a clone of the repository, or pass --canonical <dir>.",
+            err=True,
+        )
+        raise typer.Exit(code=2)
+    return canonical_dir
+
+
 @app.callback()
 def main(verbose: bool = typer.Option(False, "--verbose", "-v", help="Log every file.")) -> None:
     """Configure logging for all commands."""
@@ -39,7 +56,7 @@ def main(verbose: bool = typer.Option(False, "--verbose", "-v", help="Log every 
 @app.command()
 def validate(canonical_dir: Path = CanonicalOption) -> None:
     """Validate the canonical datasets against the schema."""
-    for dataset in canonical.load_all(canonical_dir):
+    for dataset in canonical.load_all(require_canonical(canonical_dir)):
         typer.echo(f"ok  {dataset.name}: {len(dataset.records)} records")
 
 
@@ -59,7 +76,7 @@ def export(
     if unknown:
         raise typer.BadParameter(f"unknown format(s): {', '.join(unknown)}", param_hint="--format")
     selected = tuple(fmt for fmt in FORMATS if not formats or fmt.name in formats)
-    manifest = export_all(canonical_dir, out_dir, selected)
+    manifest = export_all(require_canonical(canonical_dir), out_dir, selected)
     count = sum(len(entry["files"]) for entry in manifest["datasets"])
     typer.echo(f"wrote {count} files to {out_dir}")
 
@@ -70,7 +87,7 @@ def check(
     exports_dir: Path = typer.Option(EXPORTS_DIR, "--exports", "-e", help="Committed exports."),
 ) -> None:
     """Fail if the committed exports are stale or inconsistent with the canonical data."""
-    problems = check_exports(canonical_dir, exports_dir)
+    problems = check_exports(require_canonical(canonical_dir), exports_dir)
     for problem in problems:
         typer.echo(f"FAIL {problem}", err=True)
     if problems:
@@ -82,7 +99,7 @@ def check(
 @app.command()
 def summary(canonical_dir: Path = CanonicalOption) -> None:
     """Print record, organization and country counts as JSON."""
-    summaries = [dataset_summary(d) for d in canonical.load_all(canonical_dir)]
+    summaries = [dataset_summary(d) for d in canonical.load_all(require_canonical(canonical_dir))]
     typer.echo(json.dumps(summaries, indent=2))
 
 

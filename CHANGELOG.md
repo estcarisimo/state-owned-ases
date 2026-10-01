@@ -75,6 +75,12 @@ organization, quote or URL changed.
   → `Macao` (1).
 - AS59974: `source` typo `Comapny's website` → `Company's website`.
 
+### Security
+
+- Removed `requirements.txt`, whose 2021 pins (IPython, jupyter-core, NumPy, Pygments, tornado) had 27
+  open Dependabot alerts (13 high, 11 moderate, 3 low). Dependencies now live in
+  `pyproject.toml`/`uv.lock` and are audited with `pip-audit` in CI.
+
 ## [1.0.0] - 2021-10-17
 
 The dataset as released with the IMC 2021 paper, including community fixes.

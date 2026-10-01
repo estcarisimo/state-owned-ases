@@ -65,3 +65,14 @@ def test_summary_and_schema_and_version() -> None:
     assert code == 0
     assert "ASRecord" in json.loads(out)["$defs"]
     assert run("version") == (0, f"{__version__}\n")
+
+
+@pytest.mark.parametrize("command", ["validate", "export", "check", "summary"])
+def test_missing_canonical_data_is_a_clean_error(
+    command: str, tmp_path: Path, monkeypatch: pytest.MonkeyPatch
+) -> None:
+    monkeypatch.chdir(tmp_path)  # as after a pip install, outside a clone
+    result = runner.invoke(app, [command])
+    assert result.exit_code == 2
+    assert "Run from the root of a clone" in result.output
+    assert result.exception is None or isinstance(result.exception, SystemExit)

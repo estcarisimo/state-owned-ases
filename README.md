@@ -54,11 +54,8 @@ cd state-owned-ases
 uv sync
 ```
 
-The package is not on PyPI. To install the CLI without cloning:
-
-```bash
-pip install "git+https://github.com/estcarisimo/state-owned-ases.git"
-```
+The package is not on PyPI, and the data is not bundled with it: run the CLI from the
+root of the clone, where `data/` lives.
 
 ## 📖 Usage
 
