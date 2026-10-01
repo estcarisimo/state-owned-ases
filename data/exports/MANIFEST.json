@@ -1,0 +1,185 @@
+{
+  "schema_version": "1.0.0",
+  "datasets": [
+    {
+      "name": "state-owned-ases",
+      "title": "ASes of majority state-owned Internet operators",
+      "ownership": "majority",
+      "reference_period": [
+        "2019-06",
+        "2020-11"
+      ],
+      "records": 984,
+      "organizations": 467,
+      "conglomerates": 176,
+      "ownership_countries": 125,
+      "foreign_subsidiary_ases": 193,
+      "canonical": {
+        "path": "data/canonical/state_owned_ases.json",
+        "sha256": "733ee447d85b5d2be237b334aa2aa321be947b20727c4c60d0890d3ed08ad142"
+      },
+      "files": [
+        {
+          "path": "state-owned-ases/state_owned_ases.csv",
+          "format": "csv",
+          "binary": false,
+          "bytes": 365975,
+          "sha256": "2ef0310f415a61a1711b328a40d9bdfce6e4b05359ee22b6819785f4f01df8f2"
+        },
+        {
+          "path": "state-owned-ases/state_owned_ases.csv.gz",
+          "format": "csv.gz",
+          "binary": false,
+          "bytes": 74222,
+          "sha256": "c4dcd78098386dbdc8e92b5a9133a8c76827ef7aef0ca10a1cd797e717afc29e"
+        },
+        {
+          "path": "state-owned-ases/state_owned_ases.csv.zst",
+          "format": "csv.zst",
+          "binary": false,
+          "bytes": 47130,
+          "sha256": "4d7639c5ec94066968b94098a7bd5f1dc4f058a8b85c77a31ae717427ab18eac"
+        },
+        {
+          "path": "state-owned-ases/state_owned_ases.tsv",
+          "format": "tsv",
+          "binary": false,
+          "bytes": 364649,
+          "sha256": "0a9250fef1e89c25b29773582ea91a1e79b1a8c73def7f3716379224e003f603"
+        },
+        {
+          "path": "state-owned-ases/state_owned_ases.json",
+          "format": "json",
+          "binary": false,
+          "bytes": 756259,
+          "sha256": "ef96ade5e2f1c25849b1ecc4cde304ef50b4db61956d323d1e1f609bc1b694e2"
+        },
+        {
+          "path": "state-owned-ases/state_owned_ases.jsonl",
+          "format": "jsonl",
+          "binary": false,
+          "bytes": 661558,
+          "sha256": "b906b002414fcdb934448892e293c41d3a0b9692b9ed9cf88b3850088a6155b0"
+        },
+        {
+          "path": "state-owned-ases/state_owned_ases.jsonl.gz",
+          "format": "jsonl.gz",
+          "binary": false,
+          "bytes": 89183,
+          "sha256": "64b87a95ed472a299de2f6a5796cacf406ef38f7c336ed3f89d854057429f378"
+        },
+        {
+          "path": "state-owned-ases/state_owned_ases.jsonl.zst",
+          "format": "jsonl.zst",
+          "binary": false,
+          "bytes": 50190,
+          "sha256": "d76180947cc520d0589f7c43c86010b77c30bcd3130970a6c2f0c77b0dc72289"
+        },
+        {
+          "path": "state-owned-ases/state_owned_ases.parquet",
+          "format": "parquet",
+          "binary": true,
+          "bytes": 64528,
+          "sha256": "f3a346c4f76d7d384da08cb30944414928d4d107e0f8f6fb075e252155069ac7"
+        },
+        {
+          "path": "state-owned-ases/state_owned_ases.sqlite",
+          "format": "sqlite",
+          "binary": true,
+          "bytes": 450560,
+          "sha256": "3e415a50fb1ac78471bbe8c0cfa447f5862cc1061c3e9e5947bd9bfa4485e4e1"
+        }
+      ]
+    },
+    {
+      "name": "minority-state-owned-ases",
+      "title": "ASes of minority state-owned Internet operators (partial)",
+      "ownership": "minority",
+      "reference_period": [
+        "2019-06",
+        "2020-11"
+      ],
+      "records": 301,
+      "organizations": 39,
+      "conglomerates": 28,
+      "ownership_countries": 25,
+      "foreign_subsidiary_ases": 77,
+      "canonical": {
+        "path": "data/canonical/minority_state_owned_ases.json",
+        "sha256": "71248a54000e6ec3aa9a5ae59f4933a1293d297fa2301115d109973c9cf966e0"
+      },
+      "files": [
+        {
+          "path": "minority-state-owned-ases/minority_state_owned_ases.csv",
+          "format": "csv",
+          "binary": false,
+          "bytes": 102262,
+          "sha256": "ac836234eb23b23552799a166bbfaf089b14fc3a689ac98eac40354e932a243d"
+        },
+        {
+          "path": "minority-state-owned-ases/minority_state_owned_ases.csv.gz",
+          "format": "csv.gz",
+          "binary": false,
+          "bytes": 8750,
+          "sha256": "db90229dd0902c86211259e07172991032f24748661a603c7bd1e5c8ffbac03f"
+        },
+        {
+          "path": "minority-state-owned-ases/minority_state_owned_ases.csv.zst",
+          "format": "csv.zst",
+          "binary": false,
+          "bytes": 7915,
+          "sha256": "d7ea7be8fc00a79db65821736683b198bd3f40a2e6934bf3f798451c5c233916"
+        },
+        {
+          "path": "minority-state-owned-ases/minority_state_owned_ases.tsv",
+          "format": "tsv",
+          "binary": false,
+          "bytes": 101756,
+          "sha256": "b3417747e60b3b1e96dff5f3eeed2540351882a6d0da7e0b7ddf42e578ba633b"
+        },
+        {
+          "path": "minority-state-owned-ases/minority_state_owned_ases.json",
+          "format": "json",
+          "binary": false,
+          "bytes": 218386,
+          "sha256": "a7586cf2f6b93f48064bdb41c5662dcbbe15cfca6bd9961311eba820d34929c8"
+        },
+        {
+          "path": "minority-state-owned-ases/minority_state_owned_ases.jsonl",
+          "format": "jsonl",
+          "binary": false,
+          "bytes": 190654,
+          "sha256": "e94b18e39e61c6787d911488a34f439473b1dc4a99019ff52889608bd4fa08fc"
+        },
+        {
+          "path": "minority-state-owned-ases/minority_state_owned_ases.jsonl.gz",
+          "format": "jsonl.gz",
+          "binary": false,
+          "bytes": 11348,
+          "sha256": "0cc117ea26e525cba51886ec9d983839769cbb6b04099e9b3cebe0f2f1f84785"
+        },
+        {
+          "path": "minority-state-owned-ases/minority_state_owned_ases.jsonl.zst",
+          "format": "jsonl.zst",
+          "binary": false,
+          "bytes": 8413,
+          "sha256": "b736db03d72eb96705fc0b1bf5af0dbe92d072dbe6ae263c453cdd3baf1dcec6"
+        },
+        {
+          "path": "minority-state-owned-ases/minority_state_owned_ases.parquet",
+          "format": "parquet",
+          "binary": true,
+          "bytes": 18203,
+          "sha256": "97135a4e277737290b01ffc8c9ee3d99ef4ac629f2815ca22b8514c445364303"
+        },
+        {
+          "path": "minority-state-owned-ases/minority_state_owned_ases.sqlite",
+          "format": "sqlite",
+          "binary": true,
+          "bytes": 143360,
+          "sha256": "9c8eed214c849cbf64b314f350f1559c265c51905478d87561a35d43a27de65a"
+        }
+      ]
+    }
+  ]
+}
