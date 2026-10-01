@@ -1,0 +1,148 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  lint:
+    name: lint
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1  # v7.0.1
+        with:
+          persist-credentials: false
+
+      - uses: astral-sh/setup-uv@c18668ad3cf93ea998bef934396af7bb5c839dc7  # v10.2.0
+        with:
+          enable-cache: true
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: uv sync --locked
+
+      - name: Ruff lint
+        run: uv run ruff check src tests tools
+
+      - name: Ruff format check
+        run: uv run ruff format --check src tests tools
+
+      - name: mypy
+        run: uv run mypy src/state_owned_ases tools tests
+
+      - name: bandit (static security scan of the package)
+        run: uvx bandit -r src/state_owned_ases -q
+
+      - name: pip-audit (audits the locked dependency set)
+        run: |
+          uv export --locked --no-emit-project --no-hashes --format requirements.txt -o requirements-audit.txt
+          uvx pip-audit -r requirements-audit.txt --no-deps --disable-pip
+
+  test:
+    name: test (${{ matrix.os }}, ${{ matrix.python-version }})
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 15
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest]
+        python-version: ["3.10", "3.11", "3.12", "3.13"]
+        include:
+          - os: macos-latest
+            python-version: "3.12"
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1  # v7.0.1
+        with:
+          fetch-depth: 0  # tests/test_migration.py reads the 2021 files from history
+          persist-credentials: false
+
+      - uses: astral-sh/setup-uv@c18668ad3cf93ea998bef934396af7bb5c839dc7  # v10.2.0
+        with:
+          enable-cache: true
+          python-version: ${{ matrix.python-version }}
+
+      - name: Install dependencies
+        run: uv sync --locked
+
+      - name: Run tests
+        run: uv run pytest --cov --cov-report=term-missing --cov-fail-under=90
+
+  data:
+    name: data
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1  # v7.0.1
+        with:
+          persist-credentials: false
+
+      - uses: astral-sh/setup-uv@c18668ad3cf93ea998bef934396af7bb5c839dc7  # v10.2.0
+        with:
+          enable-cache: true
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: uv sync --locked
+
+      - name: Validate the canonical data
+        run: uv run state-owned-ases validate
+
+      - name: Fail if committed exports are stale
+        run: uv run state-owned-ases check
+
+      - name: Verify checksums with coreutils
+        working-directory: data/exports
+        run: sha256sum -c SHA256SUMS
+
+  docs:
+    name: docs
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1  # v7.0.1
+        with:
+          persist-credentials: false
+
+      - uses: astral-sh/setup-uv@c18668ad3cf93ea998bef934396af7bb5c839dc7  # v10.2.0
+        with:
+          enable-cache: true
+          python-version: "3.12"
+
+      - name: Build the documentation site (warnings are errors)
+        run: uv run --locked --group docs mkdocs build --strict
+
+      - name: Validate CITATION.cff
+        run: uvx cffconvert --validate
+
+  build:
+    name: build
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    needs: [lint, test]
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1  # v7.0.1
+        with:
+          persist-credentials: false
+
+      - uses: astral-sh/setup-uv@c18668ad3cf93ea998bef934396af7bb5c839dc7  # v10.2.0
+        with:
+          python-version: "3.12"
+
+      - name: Build package
+        run: uv build
+
+      - name: Install the wheel in a clean environment and smoke test
+        run: |
+          uv venv /tmp/smoke
+          uv pip install --python /tmp/smoke/bin/python dist/*.whl
+          /tmp/smoke/bin/state-owned-ases version
+          /tmp/smoke/bin/state-owned-ases check

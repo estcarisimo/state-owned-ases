@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Documentation
+    url: https://estcarisimo.github.io/state-owned-ases/
+    about: Data dictionary, formats, loading examples and methodology.
+  - name: Security issue
+    url: https://github.com/estcarisimo/state-owned-ases/security/advisories/new
+    about: Report a vulnerability privately (see SECURITY.md).

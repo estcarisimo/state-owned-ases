@@ -1,0 +1,32 @@
+name: Data error
+description: A value in the dataset looks wrong for the 2019–2020 reference period.
+labels: ["data"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This dataset is an archive of ownership verified in 2019–2020. Changes in
+        ownership since then are expected and are **not** errors in this dataset. Report
+        transcription errors (wrong codes, swapped fields, typos) or ownership that was
+        already wrong during the reference period.
+  - type: input
+    id: asns
+    attributes:
+      label: Affected ASNs
+      placeholder: "AS2119, AS8210"
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What is wrong, and what should it be?
+      description: Field names and the current and proposed values.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence
+      description: Sources showing the correct value during June 2019 to November 2020.
+    validations:
+      required: true
