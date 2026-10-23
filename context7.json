@@ -1,0 +1,25 @@
+{
+  "$schema": "https://context7.com/schema/context7.json",
+  "projectTitle": "State-Owned ASes",
+  "description": "Archival dataset of Autonomous Systems operated by state-owned Internet operators (ACM IMC 2021), with the quote and source URL that confirmed state ownership.",
+  "folders": ["docs"],
+  "excludeFolders": [
+    "tests",
+    "data",
+    "src",
+    "tools",
+    ".github",
+    "site",
+    "build",
+    "dist",
+    ".venv"
+  ],
+  "excludeFiles": ["AGENTS.md", "CLAUDE.md"],
+  "rules": [
+    "Ownership was verified from June 2019 to November 2020 and is not maintained. Use the data as a baseline for that period.",
+    "Read CSV with pandas using keep_default_na=False and na_values=[''], because NA is Namibia's country code.",
+    "Edit only data/canonical JSON, then regenerate data/exports with state-owned-ases export.",
+    "Evidence is per AS: one org_id can have different quotes or URLs. AS6713 is in both datasets on purpose.",
+    "Cite the IMC 2021 paper (doi:10.1145/3487552.3487822). The package is not on PyPI; run the CLI from the repository root."
+  ]
+}
