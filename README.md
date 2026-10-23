@@ -9,6 +9,8 @@ A dataset of the Autonomous Systems (ASes) run by **state-owned Internet operato
 [![Code: MIT](https://img.shields.io/badge/code-MIT-yellow.svg)](LICENSE-CODE)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 
+Documentation for agents: [`llms.txt`](https://estcarisimo.github.io/state-owned-ases/llms.txt) (full text in [`llms-full.txt`](https://estcarisimo.github.io/state-owned-ases/llms-full.txt)).
+
 > [!WARNING]
 > **This is an archive. The data is not maintained.** Ownership was verified between
 > **June 2019 and November 2020**. The dataset was last corrected in October 2021 and has
@@ -321,6 +323,7 @@ If you use this dataset, please cite the paper (also in [CITATION.cff](CITATION.
 
 ## 🔗 Related Resources
 
+- **Documentation for agents**: [`llms.txt`](https://estcarisimo.github.io/state-owned-ases/llms.txt) · [`llms-full.txt`](https://estcarisimo.github.io/state-owned-ases/llms-full.txt)
 - **Paper**: [ACM Digital Library](https://doi.org/10.1145/3487552.3487822) · [PDF](https://cseweb.ucsd.edu/~snoeren/papers/state-imc21.pdf)
 - **CAIDA AS2Org**: [AS-to-Organization dataset](https://www.caida.org/catalog/datasets/as-organizations/), the source of `org_id`
 - **Freedom House**: [Freedom on the Net](https://freedomhouse.org/report/freedom-net)

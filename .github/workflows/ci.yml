@@ -120,6 +120,11 @@ jobs:
       - name: Build the documentation site (warnings are errors)
         run: uv run --locked --group docs mkdocs build --strict
 
+      - name: Require the generated llms.txt
+        run: |
+          test -s site/llms.txt
+          test -s site/llms-full.txt
+
       - name: Validate CITATION.cff
         run: uvx cffconvert --validate
 
