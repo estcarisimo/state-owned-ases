@@ -118,10 +118,8 @@ jobs:
           python-version: "3.12"
 
       - name: Build the documentation site (warnings are errors)
-        run: uv run --locked --group docs mkdocs build --strict
-
-      - name: Require the generated llms.txt
         run: |
+          uv run --locked --group docs mkdocs build --strict
           test -s site/llms.txt
           test -s site/llms-full.txt
 
