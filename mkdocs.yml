@@ -52,3 +52,21 @@ markdown_extensions:
 
 plugins:
   - search
+  # https://llmstxt.org/ — writes /llms.txt (an index) and /llms-full.txt (every page).
+  # site_url above is required. Each listed page is also published as Markdown.
+  - llmstxt:
+      markdown_description: >-
+        Archival dataset of autonomous systems operated by state-owned Internet
+        operators (ACM IMC 2021). Ownership was verified from June 2019 to
+        November 2020 and is not maintained. Use it as a baseline for that
+        period, not as a picture of today's Internet.
+      full_output: llms-full.txt
+      sections:
+        Documentation:
+          - index.md: Archival notice, where to start, and dataset counts
+          - data.md: Canonical data, exports, and the data dictionary
+          - loading.md: Loading examples for pandas, DuckDB, and SQLite
+          - methodology.md: How ownership was verified, and known limitations
+          - changelog.md: Representation changes and data-content fixes
+          - contributing.md: How to report a transcription error
+          - citing.md: How to cite the paper and the dataset
