@@ -51,7 +51,7 @@ uvx cffconvert --validate
 
 ## Conventions
 
-- Python 3.10+, ruff for lint and format (line length 100), mypy blocking.
+- Python 3.11+, ruff for lint and format (line length 100), mypy blocking.
 - `pathlib.Path`; `logging` in library code, output only in `cli.py`.
 - NumPy-style docstrings and type hints on public functions.
 - American English in code, docs, the changelog, commit messages and PR text.
@@ -62,7 +62,7 @@ uvx cffconvert --validate
 
 - Branch from `main` (`fix/…`, `feat/…`, `docs/…`, `data/…`, `chore/…`). `main` is
   protected: no direct pushes.
-- CI must be green: lint, type check, tests on Python 3.10–3.13, exports check, docs
+- CI must be green: lint, type check, tests on Python 3.11–3.13, exports check, docs
   build.
 - Every PR receives an independent review (the brief is `.github/REVIEW.md`). It is
   merged only after that review approves the final commit.
