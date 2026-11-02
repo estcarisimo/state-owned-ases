@@ -45,7 +45,7 @@ uv run --group docs mkdocs build --strict
 
 ## Conventions
 
-- Python 3.10+ syntax (`X | None`, `list[str]`); ruff target `py310`; line length 100.
+- Python 3.11+; keep 3.10 syntax (`X | None`, `list[str]`); ruff target `py310`; line length 100.
 - `pathlib.Path`; `logging` with a module-level logger; `print`/`typer.echo` only in
   `cli.py`. NumPy-style docstrings on public API; type hints everywhere.
 - American English everywhere: identifiers, docstrings, comments, messages, docs,

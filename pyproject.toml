@@ -3,7 +3,7 @@ name = "state-owned-ases"
 version = "2.0.0"
 description = "Archival dataset of ASes operated by state-owned Internet operators (IMC 2021), with tooling to validate it and export it to CSV, TSV, JSON, Parquet, SQLite and compressed formats"
 readme = "README.md"
-requires-python = ">=3.10"
+requires-python = ">=3.11"
 license = "MIT"
 license-files = ["LICENSE-CODE"]
 authors = [{ name = "Esteban Carisimo" }]
@@ -12,7 +12,6 @@ classifiers = [
     "Development Status :: 7 - Inactive",
     "Intended Audience :: Science/Research",
     "Programming Language :: Python :: 3",
-    "Programming Language :: Python :: 3.10",
     "Programming Language :: Python :: 3.11",
     "Programming Language :: Python :: 3.12",
     "Programming Language :: Python :: 3.13",
@@ -55,6 +54,11 @@ docs = [
 [build-system]
 requires = ["uv_build>=0.9,<0.14"]
 build-backend = "uv_build"
+
+[tool.uv]
+# 4.2.1 is the first filelock release that fixes the advisories pip-audit
+# reports against 4.0.7 (a pre-commit/virtualenv dependency). It requires Python >=3.11.
+constraint-dependencies = ["filelock>=4.2.1"]
 
 [tool.ruff]
 line-length = 100
