@@ -7,7 +7,7 @@ A dataset of the Autonomous Systems (ASes) run by **state-owned Internet operato
 [![Paper](https://img.shields.io/badge/DOI-10.1145%2F3487552.3487822-informational.svg)](https://doi.org/10.1145/3487552.3487822)
 [![Data: CC BY 4.0](https://img.shields.io/badge/data-CC%20BY%204.0-lightgrey.svg)](LICENSE)
 [![Code: MIT](https://img.shields.io/badge/code-MIT-yellow.svg)](LICENSE-CODE)
-[![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
+[![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/)
 
 Documentation for agents: [`llms.txt`](https://estcarisimo.github.io/state-owned-ases/llms.txt) (full text in [`llms-full.txt`](https://estcarisimo.github.io/state-owned-ases/llms-full.txt)).
 
