@@ -87,6 +87,9 @@ def test_parquet_with_duckdb(datasets: list[Dataset]) -> None:
     for dataset in datasets:
         path = path_of(dataset, ".parquet")
         result = duckdb.sql(f"SELECT * FROM read_parquet('{path}') ORDER BY asn")
+        # DuckDB 2 types sql() as DuckDBPyRelation | None: None when the
+        # statement returns no rows. This SELECT reads the committed export.
+        assert result is not None
         assert tuple(result.columns) == COLUMNS
         rows = [dict(zip(COLUMNS, row, strict=True)) for row in result.fetchall()]
         assert rows == expected_rows(dataset)
