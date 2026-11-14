@@ -3,7 +3,7 @@ name = "state-owned-ases"
 version = "2.0.0"
 description = "Archival dataset of ASes operated by state-owned Internet operators (IMC 2021), with tooling to validate it and export it to CSV, TSV, JSON, Parquet, SQLite and compressed formats"
 readme = "README.md"
-requires-python = ">=3.11"
+requires-python = ">=3.11.5"
 license = "MIT"
 license-files = ["LICENSE-CODE"]
 authors = [{ name = "Esteban Carisimo" }]
@@ -58,7 +58,11 @@ build-backend = "uv_build"
 [tool.uv]
 # 4.2.1 is the first filelock release that fixes the advisories pip-audit
 # reports against 4.0.7 (a pre-commit/virtualenv dependency). It requires Python >=3.11.
-constraint-dependencies = ["filelock>=4.2.1"]
+# soupsieve 4.0 is the first release that fixes GHSA-mmhr-3c5m-f64f (a polynomial-time
+# denial of service in the descendant combinator); 3.0.2 fixes the two older soupsieve
+# advisories. It comes in through beautifulsoup4 (mkdocs-llmstxt, markdownify) in the docs
+# group, and every soupsieve release from 3.0 on requires Python >=3.11.5.
+constraint-dependencies = ["filelock>=4.2.1", "soupsieve>=4.0"]
 
 [tool.ruff]
 line-length = 100

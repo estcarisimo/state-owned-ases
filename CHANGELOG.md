@@ -18,9 +18,16 @@ Changes to the data's content are listed separately from changes to its represen
 - Require Python 3.11 or newer. Python 3.10 reached end of life on 2026-10-01.
   The `filelock` release that clears the advisories below requires 3.11, so 3.10
   can no longer be locked.
+- Require Python 3.11.5 or newer (was 3.11). Every `soupsieve` release that fixes the
+  advisories below requires 3.11.5.
 
 ### Security
 
+- Locked `soupsieve` 4.1 (was 2.10 on Python 3.11.0–3.11.4 and 3.0.4 elsewhere), a
+  dependency of `beautifulsoup4` (pulled in by `mkdocs-llmstxt` and `markdownify` in the
+  `docs` group). Clears GHSA-mmhr-3c5m-f64f, a polynomial-time denial of service in the
+  descendant combinator fixed in 4.0, and the two older advisories fixed in 3.0.2. A
+  `soupsieve>=4.0` constraint keeps the lock from resolving an older release.
 - Locked `filelock` 4.2.6 (was 4.0.7), a dependency of `virtualenv` and
   `python-discovery` (pulled in by `pre-commit`). `pip-audit` reports 14
   advisories in 4.0.7, all fixed in 4.2.1, including CVE-2026-112909 in
